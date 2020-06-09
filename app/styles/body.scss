@@ -13,3 +13,22 @@ body
   color: $font-color;
   font-family: $font;
 }
+
+.wrapper {
+  // margin: 100px 300px 200px 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 100px;
+  h1 {
+    color: $h1-font;
+  }ß
+  h2 {
+    color: $h2-font;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+}

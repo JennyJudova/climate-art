@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 80px;
+}
+
 #menuToggle
 {
   display: block;
@@ -14,16 +18,15 @@
 #menuToggle .a
 {
   text-decoration: none;
-  color: $background-color;
-
+  color: $menu-font;
   transition: color 0.3s ease;
 }
 
 #menuToggle .a:hover
 {
+  transform-origin: 4px 0px;
   color: $hover-navbar-font-color;
 }
-
 
 #menuToggle input
 {
@@ -53,7 +56,7 @@
   margin-bottom: 5px;
   position: relative;
 
-  background: $font-color;
+  background: $burger-cross;
   border-radius: 3px;
 
   z-index: 1;
@@ -83,7 +86,7 @@
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: $background-color;
+  background: $burger-cross;
 }
 
 /*
@@ -112,10 +115,9 @@
   position: absolute;
   width: 100%;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 100px;
   padding-top: 125px;
-
-  background: #ededed;
+  background: $menu-background;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -124,12 +126,18 @@
   transform: translate(-100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
 
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  li {
+    padding: 40px 0;
+    padding-left: 30%;
+    font-size: 150px;
+  }
 }
 
 /*

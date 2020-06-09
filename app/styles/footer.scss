@@ -1,7 +1,28 @@
 footer {
-  background: green;
+  background: $menu-background;
   flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  font-size: smaller;
+
+  p {
+    display: flex;
+    justify-content: center;
+    color: $menu-font;
+  }
+}
+
+#menu-footer {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  .a {
+    text-decoration: none;
+    color: $menu-font;
+    padding: 0 50px;
+  }
+  .a:hover {
+  color: $hover-navbar-font-color;
+  }
 }

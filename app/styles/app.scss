@@ -1,9 +1,22 @@
-$font: "Avenir Next", "Avenir", sans-serif;
-$background-color: #232323;
-$font-color: #cdcdcd;
-$hover-navbar-font-color: tomato;
+// $font: "Avenir Next", "Avenir", sans-serif;
+$font:  'Inconsolata', monospace;
+$background-color: #FFF001;
+$font-color: #13070C;
+$hover-navbar-font-color: #FF0101;
+$burger-cross: #FF0101;
+$menu-background: #0101FD;
+$menu-font: #F9F9F9;
+$h1-font: #13070C;
+$h2-font: #0101FD;
+
+// F9F9F9 - white
+// 13070C - black
+// FF0101 - red
+// FFF001 - yellow
+// 0101FD - blue
+// 2E4756 - charcoal
+// 16262E - gunmetal
 
 @import "body";
 @import "footer";
 @import "navbar";
-
