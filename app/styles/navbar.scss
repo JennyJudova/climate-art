@@ -8,6 +8,7 @@ header {
   position: relative;
   top: 50px;
   left: 50px;
+  height: 50px;
 
   z-index: 1;
 
@@ -24,7 +25,7 @@ header {
 
 #menuToggle .a:hover
 {
-  transform-origin: 4px 0px;
+  // transform-origin: 4px 0px;
   color: $hover-navbar-font-color;
 }
 
@@ -71,18 +72,18 @@ header {
 
 #menuToggle span:nth-last-child(4)
 {
-  background: green;
+  background: $burger-cross;
 }
 
 #menuToggle span:nth-last-child(3)
 {
-  background: blue;
+  background: $menu-background;
 }
 
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
-  background: green;
+  background: $burger-cross;
 }
 
 /*
@@ -122,20 +123,25 @@ header {
  */
 #menu
 {
-  position: absolute;
+  // position: absolute;
+  position: fixed;
+  overflow: hidden;
   width: 100%;
+  height: 100%;
   margin: -100px 0 0 -50px;
-  padding: 100px;
-  padding-top: 125px;
+  // padding: 80px;
+  padding-top: 100px;
   background: $menu-background;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
+
+  // the X is created here
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s cubic-bezier(0,0,.25,1);
 
   ul {
     display: flex;
@@ -144,8 +150,8 @@ header {
   }
 
   li {
-    padding: 40px 0;
-    padding-left: 30%;
+    padding: 60px 0 20px 0;
+    padding-left: 25%;
     font-size: 150px;
   }
 }
