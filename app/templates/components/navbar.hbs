@@ -1,18 +1,18 @@
-<nav role="navigation">
+<nav class="menu" role="navigation" aria-label="Main menu">
   <div id="menuToggle">
-    <input type="checkbox" />
+    <input type="checkbox" checked={{this.isChecked}} onchange={{fn this.onCheck}} />
     <span></span>
     <span></span>
     <span></span>
-    <ul id="menu">
+    <ul id="menu" role="menubar">
       <li>
-        <LinkTo @route="mission" class="a">Mission</LinkTo>
+        <LinkTo @route="mission" class="a" onclick={{fn this.onCheck}}>Mission</LinkTo>
       </li>
       <li>
-        <LinkTo @route="contact" class="a">Contact</LinkTo>
+        <LinkTo @route="contact" class="a" onclick={{fn this.onCheck}}>Contact</LinkTo>
       </li>
       <li>
-        <LinkTo @route="home" class="a">Home</LinkTo>
+        <LinkTo @route="home" class="a" onclick={{fn this.onCheck}}>Home</LinkTo>
       </li>
     </ul>
   </div>
