@@ -3,8 +3,9 @@ $font:  'Inconsolata', monospace;
 $background-color: #F9F9F9;
 $font-color: #13070C;
 $hover-navbar-font-color: #FF0101;
-$h1-font: #13070C;
-$h2-font: #0101FD;
+$h1-color: #13070C;
+$h2-color: #0101FD;
+$h2-color-background: #FFF001;
 
 // MENU
 $menu-background: #0101FD;
@@ -25,3 +26,4 @@ $burger-cross: #FF0101;
 @import "body";
 @import "footer";
 @import "navbar";
+@import "home";

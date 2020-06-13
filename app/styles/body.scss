@@ -1,5 +1,7 @@
 html {
   height: 100%;
+  // overflow-x: hidden;
+
 }
 
 body
@@ -7,6 +9,7 @@ body
   margin: 0;
   padding: 0;
   height: 100vh;
+  width: auto;
 
   background: $background-color;
   color: $font-color;
@@ -21,14 +24,16 @@ body
   padding-right: 10%;
   padding-bottom: 100px;
   h1 {
-    color: $h1-font;
+    color: $h1-color;
     margin: 0;
   }
   h2 {
-    color: $h2-font;
+    color: $h2-color;
+  }
+  h3 {
+    background-color: yellow;
   }
   p {
-    margin-bottom: 50px;
-    font-size: 70px;
+    font-size: 50px;
   }
 }

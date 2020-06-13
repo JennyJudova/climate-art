@@ -1,0 +1,19 @@
+.homewrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 100px;
+  h1 {
+    color: $h1-color;
+    margin: 0;
+  }
+  h2 {
+    color: $h2-color;
+  }
+  p {
+    margin: 0 0 50px 0;
+    font-size: 70px;
+  }
+}
