@@ -30,10 +30,13 @@ body
   h2 {
     color: $h2-color;
   }
-  h3 {
-    background-color: yellow;
-  }
   p {
-    font-size: 50px;
+    font-size: 20px;
+  }
+  ul li {
+    color: $li-color;
+  }
+  ul li span{
+    color: $font-color;
   }
 }

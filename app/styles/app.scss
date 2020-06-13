@@ -6,6 +6,7 @@ $hover-navbar-font-color: #FF0101;
 $h1-color: #13070C;
 $h2-color: #0101FD;
 $h2-color-background: #FFF001;
+$li-color: #FF0101;
 
 // MENU
 $menu-background: #0101FD;
@@ -23,7 +24,9 @@ $burger-cross: #FF0101;
 // 2E4756 - charcoal
 // 16262E - gunmetal
 
-@import "body";
-@import "footer";
-@import "navbar";
 @import "home";
+@import "footer";
+@import "body";
+@import "navbar";
+@import "contact";
+
