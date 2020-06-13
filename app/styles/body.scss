@@ -8,27 +8,27 @@ body
   padding: 0;
   height: 100vh;
 
-  /* make it look decent enough */
   background: $background-color;
   color: $font-color;
   font-family: $font;
 }
 
 .wrapper {
-  // margin: 100px 300px 200px 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-bottom: 100px;
   h1 {
     color: $h1-font;
-  }ß
+    margin: 0;
+  }
   h2 {
     color: $h2-font;
   }
   p {
     margin-bottom: 50px;
+    font-size: 70px;
   }
 }

@@ -4,7 +4,8 @@ header {
 
 #menuToggle
 {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: relative;
   top: 50px;
   left: 50px;
@@ -68,22 +69,26 @@ header {
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(4)
-{
   background: $burger-cross;
 }
 
-#menuToggle span:nth-last-child(3)
+//kebab 1
+#menuToggle span:nth-last-child(4)
 {
-  background: $menu-background;
+  background: $kebab-1;
 }
 
+//kebab 2
+#menuToggle span:nth-last-child(3)
+{
+  background: $kebab-2;
+}
+
+//kebab 3
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
-  background: $burger-cross;
+  background: $kebab-3;
 }
 
 /*
@@ -150,7 +155,7 @@ header {
   }
 
   li {
-    padding: 60px 0 20px 0;
+    padding: 20px 0;
     padding-left: 25%;
     font-size: 150px;
   }
