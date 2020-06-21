@@ -1,0 +1,23 @@
+.background-circle-1 {
+  position:absolute;
+  width: 400px;
+  height: 400px;
+  background:yellow;
+  top: 20%;
+  left: -10%;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.background-circle-2 {
+  position:absolute;
+  width: 250px;
+  height: 250px;
+  background:red;
+  bottom: 0%;
+  right: -5%;
+  border: 1px solid red;
+  border-radius: 50%;
+  z-index: -1;
+}
