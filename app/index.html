@@ -18,7 +18,28 @@
 </head>
 
 <body>
-  <div class='pointer'></div>
+  <div id='cursor-2'></div>
+  <script type="text/javascript">
+    let cursorTwo = document.getElementById('cursor-2');
+    document.addEventListener('mousemove',
+      function (e) {
+        let x = e.clientX;
+        let y = e.clientY;
+        cursorTwo.style.left = x + "px";
+        cursorTwo.style.top = y + "px";
+      });
+  </script>
+  <div id='cursor-3'></div>
+  <script type="text/javascript">
+    let cursorThree = document.getElementById('cursor-3');
+    document.addEventListener('mousemove',
+      function (e) {
+        let x = e.clientX;
+        let y = e.clientY;
+        cursorThree.style.left = x + "px";
+        cursorThree.style.top = y + "px";
+      });
+  </script>
   {{content-for "body"}}
 
   <script src="{{rootURL}}assets/vendor.js"></script>
