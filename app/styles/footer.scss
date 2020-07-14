@@ -8,24 +8,22 @@ footer {
   font-size: smaller;
   margin-bottom: 0px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  // align-content: center;
-  // nav {
-  //   margin: 0px;
-  // }
+  justify-content: center;
 
   p {
     display: flex;
     justify-content: center;
     color: $menu-font;
     margin: 5px;
+    .a {
+      color: $menu-font;
+      text-decoration: none;
+    }
   }
 
   div {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
     align-self: center;
   }
 
@@ -43,6 +41,8 @@ footer {
   display: flex;
   justify-content: center;
   margin: 10px 0;
+  padding-inline-start: 0px;
+
   .a {
     text-decoration: none;
     color: $menu-font;
@@ -51,6 +51,7 @@ footer {
     font-size: medium;
     letter-spacing: 1px;
   }
+
   .a:hover {
   color: $hover-navbar-font-color;
   }
