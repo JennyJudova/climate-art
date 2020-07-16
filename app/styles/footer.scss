@@ -19,6 +19,9 @@ footer {
       color: $menu-font;
       text-decoration: none;
     }
+    .a:hover {
+      color: $hover-navbar-font-color;
+    }
   }
 
   div {
@@ -54,5 +57,44 @@ footer {
 
   .a:hover {
   color: $hover-navbar-font-color;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    p {
+      font-size: 15px;
+      margin: 8px;
+    }
+
+    img {
+      height: 15px;
+      width: auto;
+    }
+  }
+
+  #menu-footer {
+    .a {
+      font-size: 20px;
+      padding: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  footer {
+    p {
+      font-size: 12px;
+      margin: 5px;
+    }
+  }
+
+  #menu-footer {
+    margin: 10px 0;
+
+    .a {
+      font-size: 17px;
+      padding: 5px;
+    }
   }
 }
