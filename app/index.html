@@ -16,32 +16,51 @@
   <link integrity="" rel="stylesheet" href="{{rootURL}}assets/climate-art.css">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;500&display=swap" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   {{content-for "head-footer"}}
 </head>
 
 <body>
-  <div id='cursor-2'></div>
-  <script type="text/javascript">
-    let cursorTwo = document.getElementById('cursor-2');
-    document.addEventListener('mousemove',
-      function (e) {
-        let x = e.clientX;
-        let y = e.clientY;
-        cursorTwo.style.left = x + "px";
-        cursorTwo.style.top = y + "px";
+  <div class="circle" id="circle1">
+    <svg width="30" height="30">
+      <circle cx="15" cy="15" r="15" fill="#0101FD"></circle>
+    </svg>
+  </div>
+  <div class="circle" id="circle2">
+    <svg width="20" height="20">
+      <circle cx="10" cy="10" r="10" fill="#FFF001"></circle>
+    </svg>
+  </div>
+  <script>
+
+    var circle1 = document.getElementById("circle1");
+    var circle2 = document.getElementById("circle2");
+
+    TweenLite.set(circle1, {
+      xPercent: -50,
+      yPercent: -50
+    });
+
+    TweenLite.set(circle2, {
+      xPercent: -50,
+      yPercent: -50
+    });
+
+    window.addEventListener("mousemove", moveCircle);
+
+    function moveCircle(e) {
+      TweenLite.to(circle1, 0.3, {
+        x: e.clientX,
+        y: e.clientY
       });
-  </script>
-  <div id='cursor-3'></div>
-  <script type="text/javascript">
-    let cursorThree = document.getElementById('cursor-3');
-    document.addEventListener('mousemove',
-      function (e) {
-        let x = e.clientX;
-        let y = e.clientY;
-        cursorThree.style.left = x + "px";
-        cursorThree.style.top = y + "px";
+
+      TweenLite.to(circle2, 0.7, {
+        x: e.clientX,
+        y: e.clientY
       });
+    }
   </script>
+
   {{content-for "body"}}
 
   <script src="{{rootURL}}assets/vendor.js"></script>
