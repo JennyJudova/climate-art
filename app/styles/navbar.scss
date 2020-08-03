@@ -176,6 +176,9 @@ header {
       font-size: 60px;
     }
   }
+  header {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -187,10 +190,19 @@ header {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  #menu {
+    li {
+      padding-left: 5%;
+      font-size: 40px;
+    }
+  }
+}
+
 @media only screen and (max-width: 360px) {
   #menu {
     li {
-      padding-left: 0%;
+      padding-left: 5%;
       font-size: 30px;
     }
   }

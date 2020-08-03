@@ -59,3 +59,28 @@
     }
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .homewrapper {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 27px;
+      line-height: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .homewrapper {
+    padding-right: 0px;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 25px;
+      line-height: 33px;
+    }
+  }
+}
