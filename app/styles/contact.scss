@@ -6,6 +6,20 @@
   }
 }
 
+.social-media-logos {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  svg {
+    height:40px;
+    padding-left: 10px;
+  }
+}
+
+.contact-info {
+  padding-bottom: 30px;
+}
+
 
 @media only screen and (max-width: 850px) {
   .email {
