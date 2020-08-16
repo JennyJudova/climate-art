@@ -167,42 +167,11 @@ header {
   transform: none;
 }
 
-
-@media only screen and (max-width: 850px) {
-  #menu {
-    li {
-      padding-left: 20%;
-      font-size: 60px;
-    }
+@media only screen and (max-width: 1024px) {
+  .menu {
+    display: none;
   }
   header {
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #menu {
-    li {
-      padding-left: 10%;
-      font-size: 40px;
-    }
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  #menu {
-    li {
-      padding-left: 5%;
-      font-size: 40px;
-    }
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  #menu {
-    li {
-      padding-left: 5%;
-      font-size: 30px;
-    }
+    display: none;
   }
 }
