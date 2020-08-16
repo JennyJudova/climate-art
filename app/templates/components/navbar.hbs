@@ -1,22 +1,25 @@
-<nav class="menu" role="navigation" aria-label="Main menu" aria-labelledby="main-navigation">
+<nav class="menu" role="navigation" aria-label="Main menu" aria-labelledby="main-navigation" tabindex="-1">
   <div id="menuToggle">
     <input type="checkbox" checked={{this.isChecked}} onchange={{fn this.onCheck}} aria-label="Open the menu"
-      aria-checked={{this.isChecked}} />
+      aria-checked={{this.isChecked}} tabindex="-1" />
     <span aria-hidden="true"></span>
     <span aria-hidden="true"></span>
     <span aria-hidden="true"></span>
     <ul id="menu" role="menubar">
       <li>
-        <LinkTo @route="home" class="a" onclick={{fn this.onCheck}} aria-label="Home">Home</LinkTo>
+        <LinkTo @route="home" class="a" onclick={{fn this.onCheck}} aria-label="Home" tabindex="-1">Home</LinkTo>
       </li>
       <li>
-        <LinkTo @route="mission" class="a" onclick={{fn this.onCheck}} aria-label="Mission">Mission</LinkTo>
+        <LinkTo @route="mission" class="a" onclick={{fn this.onCheck}} aria-label="Mission" tabindex="-1">Mission
+        </LinkTo>
       </li>
       <li>
-        <LinkTo @route="projects" class="a" onclick={{fn this.onCheck}} aria-label="Projects">Projects</LinkTo>
+        <LinkTo @route="projects" class="a" onclick={{fn this.onCheck}} aria-label="Projects" tabindex="-1">Projects
+        </LinkTo>
       </li>
       <li>
-        <LinkTo @route="contact" class="a" onclick={{fn this.onCheck}} aria-label="Contact">Contact</LinkTo>
+        <LinkTo @route="contact" class="a" onclick={{fn this.onCheck}} aria-label="Contact" tabindex="-1">Contact
+        </LinkTo>
       </li>
     </ul>
   </div>
