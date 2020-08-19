@@ -1,10 +1,9 @@
 .project-logo {
   display: block;
-  width: 1000px;
+  width: 70%;
   height: auto;
-  position: absolute;
-  top: 15%;
-  left: 15%;
+  margin: auto;
+  bottom: 20%;
 }
 
 .overlay {
@@ -57,7 +56,7 @@
 @media only screen and (max-width: 1025px) {
   .homewrapper {
     .project-logo {
-      width: auto;
+      padding-top: 25%;
     }
     .home-page {
       padding-top: 0px;
@@ -75,9 +74,6 @@
       font-size: 40px;
       margin: 0 0 30px 0;
       line-height: 50px;
-    }
-    .project-logo {
-      width: 550px;
     }
     .homepage-text {
       top: 45%;
@@ -112,8 +108,7 @@
       width: 350px;
     }
     .project-logo {
-      width: 300px;
-      top: 35%;
+      width: 80%;
     }
   }
 }
@@ -131,8 +126,7 @@
       padding-top: 30px;
     }
     .project-logo {
-      width: 300px;
-      top: 30%;
+      width: 100%;
     }
   }
 }
@@ -145,11 +139,6 @@
     p {
       font-size: 20px;
       line-height: 40px;
-    }
-    .project-logo {
-      width: 300px;
-      left: 10%;
-      top: 30%;
     }
     .homepage-text {
       top: 50%;
@@ -174,17 +163,13 @@
 @media only screen and (max-width: 330px) {
   .homewrapper {
     .project-logo {
-      width: 280px;
-      left: 6%;
+      left: 0;
     }
   }
 }
 
 @media only screen and (max-width: 290px) {
   .homewrapper {
-    .project-logo {
-      width: 250px;
-    }
     .homepage-text {
       width: 250px;
     }
