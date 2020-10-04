@@ -11,5 +11,6 @@ Router.map(function () {
   this.route('mission', {});
   this.route('contact', {});
   this.route('projects', {});
+  this.route('past-projects', {});
   this.route('terms-and-conditions', {});
 });
