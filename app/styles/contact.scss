@@ -30,9 +30,23 @@
   padding-bottom: 30px;
 }
 
+.jr-ds {
+  width: 500px;
+}
+
 
 @media only screen and (max-width: 850px) {
   .email {
     padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .email {
+    padding-bottom: 30px;
+  }
+
+  .jr-ds {
+    width: 300px;
   }
 }
