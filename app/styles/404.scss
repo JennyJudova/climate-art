@@ -1,0 +1,49 @@
+.error-message {
+  color: $font-color;
+  text-align: left;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  .dodo {
+    background: $h2-color-background
+  }
+  h1 {
+    color: $h1-color;
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: $h2-color;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .error-message {
+    top: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .error-message {
+    h1 {
+      font-size: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .error-message {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .error-message {
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
+}
