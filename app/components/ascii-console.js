@@ -91,15 +91,15 @@ export default class AsciiConsoleComponent extends Component {
     ********************\n\
     A thumb of root ginger.A wodge of Victoria sponge.\n\
     Apple cores, tulip petals, hydrangea crowns, radishes.\n\
-    Shells, peelings, scrapings, halves.Celery stems, limes,\n\
+    Shells, peelings, scrapings, halves. Celery stems, limes,\n\
     onions, rocket poured from vacuum packs, Cuts to\n\
     rescue ailing economy, inks bleeding through beige.\n\
-    Cauliflower heads.Strong English teabags.Innards\n\
+    Cauliflower heads. Strong English teabags.Innards\n\
     squeezed and scooped.Tops, toes, rinds, fingers, all\n\
     boxed together in life - slime.Mush shivery with heat, a\n\
     dizzy waft of sweet puke, fast and slow rotting loot,\n\
     shoot and syllable distilling black - gold mosquito -\n\
-    humming dirt liqueur.Quintessence of nitrogens,\n\
+    humming dirt liqueur. Quintessence of nitrogens,\n\
     carbons, rancid / fresh chemicals, all of us chemicals,\n\
     crushed in our squalors, august in our entropies.Peas.\n\
     \n\
