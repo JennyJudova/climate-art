@@ -8,12 +8,13 @@ export default class SnakeComponent extends Component {
   hight = 20;
 
   interval = null;
-  isPlaying = false;
   squares = [];
 
   @tracked currentSnake = [2, 1, 0];
   @tracked appleIndex = 0;
   @tracked direction = 1;
+  @tracked score = 0
+  @tracked isPlaying = false;
 
   get grid() {
     for (let i = 0; i < this.width * this.hight; i++) {
@@ -30,6 +31,7 @@ export default class SnakeComponent extends Component {
     this.direction = 1
     this.currentSnake = [2, 1, 0]
     this.currentSnake.forEach(index => this.squares[index].classList.add('snake'))
+    this.score = 0
     this.randomApple()
   }
 
@@ -50,7 +52,8 @@ export default class SnakeComponent extends Component {
     ) {
       clearInterval(this.interval)
       this.isPlaying = false
-      return alert('game over')
+      return
+      // this.gameOver()
     }
 
     const tail = this.currentSnake.pop()
@@ -64,9 +67,14 @@ export default class SnakeComponent extends Component {
       this.squares[tail].classList.add('snake')
       this.currentSnake.push(tail)
       this.randomApple()
+      this.score++
     }
     this.squares[this.currentSnake[0]].classList.add('snake')
   }
+
+  // gameOver() {
+  //   console.log('HIIII')
+  // }
 
   @action
   startGame() {

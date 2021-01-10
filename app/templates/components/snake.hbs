@@ -1,6 +1,10 @@
 <div class="game">
-  <h1>Snake Game</h1>
+  <h2>Donate or play the Snake Game</h2>
+  {{#if this.isPlaying}}
+  <div class="score">Score {{this.score}}</div>
+  {{else}}
   <button type="button" {{on "click" this.startGame}}> Start Game</button>
+  {{/if}}
   <div class="grid">
     {{#each this.grid as |square|}}{{square}}{{/each}}
   </div>
