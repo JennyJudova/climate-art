@@ -1,0 +1,43 @@
+// body {
+//   overflow-y: hidden;
+// }
+
+.game {
+  align-items: center;
+  display: flex;
+  height: 68vh;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  background-color: 	#FFFAFA;
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+  max-height: 500px;
+  width: 500px;
+  background-color: 	#FFFAFA;
+}
+
+.grid div {
+  border: 1px solid;
+  flex-grow: 1;
+  height: 5%;
+  width: 5%;
+  background-color: 	#FFFAFA;
+  color: black;
+  box-sizing: border-box;
+}
+
+.grid div.apple {
+  background-color: red;
+}
+
+.grid div.snake {
+  background-color: blue;
+}
