@@ -9,6 +9,7 @@ export default class SnakeComponent extends Component {
 
   interval = null;
   squares = [];
+  gameOverText = [101, 102, 106, 107, 110, 114, 116, 117, 118, 119, 120, 125, 128, 130, 131, 133, 134, 136, 140, 142, 143, 145, 148, 150, 152, 154, 156, 157, 158, 160, 163, 165, 166, 167, 168, 170, 174, 176, 181, 182, 185, 188, 190, 194, 196, 197, 198, 199, 221, 222, 225, 229, 231, 232, 233, 234, 236, 237, 238, 240, 243, 245, 249, 251, 256, 259, 260, 263, 265, 269, 271, 272, 273, 276, 279, 280, 283, 286, 288, 291, 296, 297, 298, 301, 302, 307, 311, 312, 313, 314, 316, 319]
 
   @tracked currentSnake = [2, 1, 0];
   @tracked appleIndex = 0;
@@ -26,8 +27,12 @@ export default class SnakeComponent extends Component {
   }
 
   setupGame() {
-    this.currentSnake.forEach(index => this.squares[index].classList.remove('snake'))
-    this.squares[this.appleIndex].classList.remove('apple')
+    this.squares.map(div => {
+      div.classList.remove('apple')
+      div.classList.remove('snake')
+      div.classList.remove('game-over')
+      div.classList.remove('game-over-text')
+    })
     this.direction = 1
     this.currentSnake = [2, 1, 0]
     this.currentSnake.forEach(index => this.squares[index].classList.add('snake'))
@@ -52,8 +57,8 @@ export default class SnakeComponent extends Component {
     ) {
       clearInterval(this.interval)
       this.isPlaying = false
-      return
-      // this.gameOver()
+      // return
+      this.gameOver()
     }
 
     const tail = this.currentSnake.pop()
@@ -72,9 +77,19 @@ export default class SnakeComponent extends Component {
     this.squares[this.currentSnake[0]].classList.add('snake')
   }
 
-  // gameOver() {
-  //   console.log('HIIII')
-  // }
+  gameOver() {
+    this.squares.map((div, i) => {
+      div.classList.remove('apple')
+      div.classList.remove('snake')
+      div.classList.add('game-over')
+      if (this.gameOverText.includes(i)) {
+        div.classList.remove('game-over')
+        div.classList.add('game-over-text')
+      }
+    })
+
+    return
+  }
 
   @action
   startGame() {
