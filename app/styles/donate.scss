@@ -1,0 +1,17 @@
+.donate-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.donate-text-right {
+  margin: 10% 5%;
+}
+
+.donate-text-left {
+  margin: 10% 5%;
+  h4 {
+    color: $h2-color;
+    margin: 0;
+    background-color: $h2-color-background;
+  }
+}

@@ -32,6 +32,14 @@ $circle-2-size: 250px;
 //HOVER
 $social-media-hover:#FFF001;
 
+//BUTTON
+$button-border:#0101FD;
+$button-color:#0101FD;
+$button-text:#F9F9F9;
+$button-border-hover:#FFF001;
+$button-color-hover:#FFF001;
+$button-text-hover:#FF0101;
+
 
 // F9F9F9 - white
 // 13070C - black
@@ -49,4 +57,6 @@ $social-media-hover:#FFF001;
 @import "circles";
 @import "tandc";
 @import "projects.scss";
+@import "snake.scss";
+@import "donate";
 @import "404.scss";
