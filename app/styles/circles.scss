@@ -20,6 +20,28 @@
   z-index: -1;
 }
 
+.background-circle-3 {
+  position:absolute;
+  width: $circle-2-size;
+  height: $circle-2-size;
+  background: #0101FD;
+  bottom: -50%;
+  right: -3%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.background-circle-4 {
+  position:absolute;
+  width: $circle-4-size;
+  height: $circle-4-size;
+  background: $circle-1-color;
+  bottom: -70%;
+  right: 30%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 440px) {
   .background-circle-1{
     width: 320px;

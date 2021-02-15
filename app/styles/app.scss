@@ -28,6 +28,7 @@ $circle-1-color: #FFF001;
 $circle-1-size: 400px;
 $circle-2-color: #FF0101;
 $circle-2-size: 250px;
+$circle-4-size: 150px;
 
 //HOVER
 $social-media-hover:#FFF001;
@@ -49,4 +50,5 @@ $social-media-hover:#FFF001;
 @import "circles";
 @import "tandc";
 @import "projects.scss";
+@import "opportunities.scss";
 @import "404.scss";
