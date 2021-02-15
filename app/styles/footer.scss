@@ -56,7 +56,7 @@ footer {
     color: $menu-font;
     padding: 0 50px;
     font-weight: 1000;
-    font-size: medium;
+    font-size: 19px;
     letter-spacing: 1px;
   }
 
@@ -65,11 +65,11 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   footer {
     p {
       font-size: 15px;
-      margin: 8px;
+      margin: 12px;
     }
 
     img {
@@ -80,7 +80,28 @@ footer {
 
   #menu-footer {
     .a {
-      font-size: 20px;
+      font-size: 19px;
+      padding: 12px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    p {
+      font-size: 10px;
+      margin: 8px;
+    }
+
+    img {
+      height: 10px;
+      width: auto;
+    }
+  }
+
+  #menu-footer {
+    .a {
+      font-size: 13px;
       padding: 8px;
     }
   }
@@ -97,7 +118,7 @@ footer {
   #menu-footer {
     margin: 10px 0;
     .a {
-      font-size: 17px;
+      font-size: 10px;
       padding: 5px;
     }
   }
