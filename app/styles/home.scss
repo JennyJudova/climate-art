@@ -19,6 +19,12 @@
   background-color: $background-color;
 }
 
+.homewrapper {
+  .project-logo {
+    padding-top: 10%;
+  }
+}
+
 .homewrapper:hover .overlay {
   opacity: 1;
 }
