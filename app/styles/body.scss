@@ -59,12 +59,20 @@ body
   ul li {
     color: $li-color;
   }
-  ul li span{
+  ul li span {
     color: $font-color;
   }
   .cic {
     font-size: 15px;
     padding-top: 50px;
+  }
+  button {
+    background-color: red;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 20px;
+    color: white;
+    margin-left: 42%;
   }
 }
 
