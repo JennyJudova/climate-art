@@ -138,4 +138,29 @@
       width: auto;
     }
   }
+
+  .current-project-wrapper {
+    p {
+      font-size: 18px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .text {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    padding-bottom: 20%;
+  }
 }

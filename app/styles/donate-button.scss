@@ -46,3 +46,24 @@
       360deg
       );}
   }
+
+  @media only screen and (max-width: 600px) {
+    .badge {
+      position: static;
+      margin-left: 60%;
+    }
+
+    .wrapper {
+      button {
+        margin-left: 40%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .wrapper {
+      button {
+        margin-left: 30%;
+      }
+    }
+  }

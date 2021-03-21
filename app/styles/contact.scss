@@ -51,16 +51,38 @@ div {
 
 @media only screen and (max-width: 850px) {
   .email {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+  }
+
+  .contact-info {
+    padding-top: 60px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .email {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
 
   .jr-ds {
-    width: 300px;
+    width: 260px;
+  }
+
+  .contact-info {
+    padding: 0px;
+  }
+
+  div {
+    .support {
+      p {
+        font-size: 12px;
+      }
+    }
   }
 }
+
+// @media only screen and (max-width: 500px) {
+//   .jr-ds {
+//     width: 280;
+//   }
+// }
