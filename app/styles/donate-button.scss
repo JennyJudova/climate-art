@@ -1,34 +1,48 @@
 .badge {
-  transform: rotate(
-7deg
-);
-  z-index: 102;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: fixed;
-  right: 90px;
-  top: 10px;
-  line-height: 1.1;
-  text-align: center;
-  font-family: $font;
-  font-weight: 900;
-  font-size: 20px;
-  color: $background-color;
-  background: $blue;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-weight: 900;
+    font-size: 20px;
+    z-index: 102;
+    right: 60px;
+    top: 20px;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    color: $background-color;
+    background: $blue;
+    animation-name: rotateText;
+  }
+
+  .badge:hover {
+    color: $font-color;
+    background: $yellow;
+  }
+
+  .badge-text {
+    transform: rotate(20deg);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+.donation-wrapper {
+  .background-circle-2 {
+    bottom: 15%;
+  }
 }
 
-.badge:hover {
-  color: $font-color;
-  background: $yellow;
-}
-
-a {
-  text-decoration: none;
-}
+  @keyframes rotateText {
+    from {transform: rotate(
+      0deg
+      );}
+    to {transform: rotate(
+      360deg
+      );}
+  }
