@@ -28,8 +28,8 @@ body
   justify-content: center;
   flex-direction: column;
   padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-bottom: 10%;
   .text {
     img {
@@ -59,13 +59,44 @@ body
   ul li {
     color: $li-color;
   }
-  ul li span{
+  ul li span {
     color: $font-color;
   }
   .cic {
     font-size: 15px;
     padding-top: 50px;
   }
+
+  button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: $blue;
+    padding: 10px;
+    border: 1px solid $blue;
+    font-size: 20px;
+    color: white;
+    margin-left: 42%;
+    font-family: $font;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-name: rotateText;
+    text-decoration: underline;
+  }
+
+  @keyframes rotateText {
+    from {transform: rotate(
+      0deg
+      );}
+    to {transform: rotate(
+      360deg
+      );}
+  }
+
+  // .button:hover {
+  //   color: $font-color;
+  //   background: $yellow;
+  // }
 }
 
 @media only screen and (max-width: 1180px) {

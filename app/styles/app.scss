@@ -2,6 +2,11 @@
 $font:  'Inconsolata', monospace;
 $background-color: #F9F9F9;
 $font-color: #13070C;
+$yellow: #FFF001;
+$red: #FF0101;
+$blue: #0101FD;
+
+//
 $hover-navbar-font-color: #FF0101;
 $h1-color: #13070C;
 $h2-color: #0101FD;
@@ -50,4 +55,5 @@ $social-media-hover:#FFF001;
 @import "circles";
 @import "tandc";
 @import "projects.scss";
+@import "donate-button.scss";
 @import "404.scss";
