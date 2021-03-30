@@ -1,8 +1,6 @@
 import Component from '@glimmer/component';
-import { computed } from '@ember/object';
 
 export default class AsciiConsoleComponent extends Component {
-  @computed()
   get consoleLog() {
     let welcome = "\n\
     ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗\n\
