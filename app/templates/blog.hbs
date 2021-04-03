@@ -1,0 +1,12 @@
+<div class="wrapper" aria-label="Mission page">
+  <Circles />
+  <DonateButton />
+  <div class="text">
+    {{#each @model as |blog|}}
+    <div class="article">
+      <h2>{{blog.title}}</h2>
+      <p>{{blog.summary}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>

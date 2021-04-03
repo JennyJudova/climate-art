@@ -13,6 +13,7 @@ Router.map(function () {
   this.route('projects', {});
   this.route('past-projects', {});
   this.route('terms-and-conditions', {});
-  this.route('donate');
+  this.route('donate', {});
+  this.route('blog', {});
   this.route('404', { path: '/*path' });
 });
