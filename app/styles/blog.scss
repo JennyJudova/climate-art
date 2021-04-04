@@ -1,0 +1,30 @@
+.article {
+  padding-top: 25px;
+}
+
+.article-text {
+  h1 {
+    color: $h1-color;
+    margin: 0;
+    font-size: 65px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    text-transform:uppercase;
+  }
+  h3 {
+    background: $yellow;
+  }
+  .yellow-highlight {
+    background: $yellow;
+  }
+  .blue-font {
+    color: $blue;
+  }
+  .red-font {
+    color: $red;
+  }
+  .yellow-font {
+    color: $yellow;
+  }
+}

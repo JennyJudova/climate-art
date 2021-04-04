@@ -1,10 +1,8 @@
-<div class="text">
-  {{#each @model as |blog|}}
-  <div class="article">
-    <LinkTo @route='blog.blog-post' @model={{blog.slug}}>
-      <h2>{{blog.title}}</h2>
-    </LinkTo>
-    <p>{{blog.summary}}</p>
-  </div>
-  {{/each}}
+{{#each @model as |blog|}}
+<div class="article">
+  <LinkTo @route='blog.blog-post' @model={{blog.slug}}>
+    <h2>{{blog.title}}</h2>
+  </LinkTo>
+  <p>{{blog.summary}}</p>
 </div>
+{{/each}}
