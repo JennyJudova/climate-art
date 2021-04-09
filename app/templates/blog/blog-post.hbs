@@ -5,5 +5,8 @@
   {{#if model.image}}
   <img class="jr-ds" src={{model.image}} alt={{model.image-alt-text}}>
   {{/if}}
-  {{{model.article}}}
+  <div>
+    {{{model.article}}}
+  </div>
+  <LinkTo @route="blog" class="back-button">Baack</LinkTo>
 </div>

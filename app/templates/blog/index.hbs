@@ -1,8 +1,10 @@
+<Circles />
 {{#each @model as |blog|}}
 <div class="article">
   <LinkTo @route='blog.blog-post' @model={{blog.slug}}>
     <h2>{{blog.title}}</h2>
   </LinkTo>
+  <p>{{blog.date}}</p>
   <p>{{blog.summary}}</p>
 </div>
 {{/each}}

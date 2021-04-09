@@ -1,5 +1,12 @@
 .article {
   padding-top: 25px;
+  h2 {
+    margin: 10px 0px;
+    text-decoration: underline;
+  }
+  p {
+    margin: 5px 0px;
+  }
 }
 
 .article-text {
@@ -15,6 +22,9 @@
   h3 {
     background: $yellow;
   }
+  a {
+    text-decoration: underline;
+  }
   .yellow-highlight {
     background: $yellow;
   }
@@ -26,5 +36,25 @@
   }
   .yellow-font {
     color: $yellow;
+  }
+  .back-button {
+    background: $red;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 42%;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: $font;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .back-button:hover {
+    color: $font-color;
+    background: $yellow;
   }
 }

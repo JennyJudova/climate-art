@@ -1,6 +1,66 @@
 [
   {
     "slug": "the-vanished-sea-residency-begins",
+    "title": "The Vanished Sea Residency Begins! 1",
+    "date": "04-Apr-2021",
+    "author": "Jenny Judova",
+    "image": "",
+    "image-alt-text": "",
+    "summary": "Well that was a fun weekend in Rye",
+    "article": "<p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>      <p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>"
+  },
+  {
+    "slug": "style-guide-for-blog",
+    "title": "Style Guide for the Blog 2",
+    "date": "03-Apr-2021",
+    "image": "https://i.imgur.com/8O3gamK.jpg",
+    "image-alt-text": "Dzmitry Suslau and Jevgenija Ravcova standing in front of large greenery in a park.",
+    "author": "Jenny Judova",
+    "summary": "Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.",
+    "article": "<h1>This is h1</h1><h2>This is h2</h2><h3>This is h3</h3><h4>This is h4</h4><p>This is how <a href='mailto:info@climateart.org.uk'>link in an a tag looks</a>.</p><p>To highlight in yellow a random part of text add <span class='yellow-highlight'>class='yellow-highlight'</span> to the span tag.</p><p>To make part of the text blue add <span class='blue-font'>class='blue-font'</span> to span tag.</p><p>To make part of the text blue add <span class='red-font'>class='red-font'</span> to span tag.</p><p>To make part of the text blue add <span class='yellow-font'>class='yellow-font'</span> to span tag.</p><p>To make a part of a sentence <i>italicised add i tags</i> and to make it <b>bold add b tags</b>.</p><ul>To make a list add span tag is added to li tag<li><span>one</span></li><li><span>two</span></li><li><span>three</span></li></ul>"
+  },
+  {
+    "slug": "something-something",
+    "title": "I ran out of fun ideas to write 3",
+    "date": "02-Apr-2021",
+    "image": "",
+    "image-alt-text": "",
+    "author": "Jenny Judova",
+    "summary": "Seriously this whole thing is Lorem Ipsum fox jumped over something jibberish.",
+    "article": "<p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>      <p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>"
+  },
+  {
+    "slug": "the-vanished-sea-residency-begins",
+    "title": "The Vanished Sea Residency Begins!",
+    "date": "04-Apr-2021",
+    "author": "Jenny Judova",
+    "image": "",
+    "image-alt-text": "",
+    "summary": "Well that was a fun weekend in Rye",
+    "article": "<p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>      <p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>"
+  },
+  {
+    "slug": "style-guide-for-blog",
+    "title": "Style Guide for the Blog",
+    "date": "03-Apr-2021",
+    "image": "https://i.imgur.com/8O3gamK.jpg",
+    "image-alt-text": "Dzmitry Suslau and Jevgenija Ravcova standing in front of large greenery in a park.",
+    "author": "Jenny Judova",
+    "summary": "Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.",
+    "article": "<h1>This is h1</h1><h2>This is h2</h2><h3>This is h3</h3><h4>This is h4</h4><p>This is how <a href='mailto:info@climateart.org.uk'>link in an a tag looks</a>.</p><p>To highlight in yellow a random part of text add <span class='yellow-highlight'>class='yellow-highlight'</span> to the span tag.</p><p>To make part of the text blue add <span class='blue-font'>class='blue-font'</span> to span tag.</p><p>To make part of the text blue add <span class='red-font'>class='red-font'</span> to span tag.</p><p>To make part of the text blue add <span class='yellow-font'>class='yellow-font'</span> to span tag.</p><p>To make a part of a sentence <i>italicised add i tags</i> and to make it <b>bold add b tags</b>.</p><ul>Default List<li>one</li><li>two</li><li>three</li></ul><ul>List when span tag is added to li tag<li><span>one</span></li><li><span>two</span></li><li><span>three</span></li></ul>"
+  },
+  {
+    "slug": "something-something",
+    "title": "I ran out of fun ideas to write",
+    "date": "02-Apr-2021",
+    "image": "",
+    "image-alt-text": "",
+    "author": "Jenny Judova",
+    "summary": "Seriously this whole thing is Lorem Ipsum fox jumped over something jibberish.",
+    "article": "<p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>      <p> Our practice stems from the understanding of ‘public art’ as a form of meaningful engagement with diverse publics. Climate Art is a space for resident groups, artists, and scientists to come together.</p>"
+  },
+  {
+    "slug": "the-vanished-sea-residency-begins",
     "title": "The Vanished Sea Residency Begins!",
     "date": "04-Apr-2021",
     "author": "Jenny Judova",
