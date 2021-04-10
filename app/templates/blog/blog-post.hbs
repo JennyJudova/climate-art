@@ -1,0 +1,12 @@
+<div class="article-text">
+  <h1>{{model.title}}</h1>
+  <p class="red-font">{{model.date}}</p>
+  <p class="red-font">By {{model.author}}</p>
+  {{#if model.image}}
+  <img class="jr-ds" src={{model.image}} alt={{model.image-alt-text}}>
+  {{/if}}
+  <div>
+    {{{model.article}}}
+  </div>
+  <LinkTo @route="blog" class="back-button">Baack</LinkTo>
+</div>
