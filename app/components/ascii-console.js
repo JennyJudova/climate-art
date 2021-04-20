@@ -1,8 +1,6 @@
 import Component from '@glimmer/component';
-import { computed } from '@ember/object';
 
 export default class AsciiConsoleComponent extends Component {
-  @computed()
   get consoleLog() {
     let welcome = "\n\
     ██╗    ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗\n\
@@ -104,6 +102,6 @@ export default class AsciiConsoleComponent extends Component {
     crushed in our squalors, august in our entropies.Peas.\n\
     \n\
     C.P.Nield ";
-    return console.log(welcome, climateArt, created, jenny, judova, poem);
+    return console.log(welcome, climateArt, created, jenny, judova, poem); // eslint-disable-line
   }
 }
