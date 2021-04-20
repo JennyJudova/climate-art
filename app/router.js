@@ -11,6 +11,7 @@ Router.map(function () {
   this.route('mission', {});
   this.route('contact', {});
   this.route('projects', {});
+  this.route('projects', { path: '/residency' });
   this.route('past-projects', {});
   this.route('terms-and-conditions', {});
   this.route('donate');
