@@ -16,4 +16,5 @@ Router.map(function () {
   this.route('terms-and-conditions', {});
   this.route('donate');
   this.route('404', { path: '/*path' });
+  this.route('events');
 });
