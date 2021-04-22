@@ -78,6 +78,15 @@ footer {
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  #menu-footer {
+    flex-wrap: wrap;
+    li {
+      padding-top: 10px;
+    }
+  }
+}
+
 @media only screen and (max-width: 850px) {
   footer {
     p {
@@ -88,18 +97,6 @@ footer {
     img {
       height: 15px;
       width: auto;
-    }
-  }
-
-  #menu-footer {
-    .a {
-      font-size: 19px;
-      padding: 12px;
-    }
-
-    .a-donate {
-      font-size: 19px;
-      padding: 12px;
     }
   }
 }
@@ -118,14 +115,15 @@ footer {
   }
 
   #menu-footer {
+    li {
+      padding-top: 10px;
+    }
     .a {
-      font-size: 13px;
-      padding: 8px;
+      padding: 25px;
     }
 
     .a-donate {
-      font-size: 13px;
-      padding: 8px;
+      padding: 25px;
     }
   }
 }
@@ -138,14 +136,16 @@ footer {
   }
 
   #menu-footer {
+    li {
+      padding-top: 10px;
+    }
     margin: 10px 0;
     .a {
-      font-size: 10px;
-      padding: 5px;
+      padding: 10px;
     }
 
     .a-donate {
-      font-size: 10px;
+      padding: 10px;
     }
   }
 }

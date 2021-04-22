@@ -62,6 +62,11 @@ body
   ul li span {
     color: $font-color;
   }
+  summary {
+    font-size: 20px;
+    letter-spacing: 0.35px;
+    line-height: 25px;
+  }
   .cic {
     font-size: 15px;
     padding-top: 50px;
@@ -100,6 +105,13 @@ body
 }
 
 @media only screen and (max-width: 1180px) {
+  // nav {
+  //   background-color: green;
+  //   flex-wrap: wrap;
+  // }
+  .footer-links {
+    display: none;
+  }
   .wrapper {
     .text {
       img {
