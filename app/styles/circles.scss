@@ -42,6 +42,39 @@
   z-index: -1;
 }
 
+.background-circle-5 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: blue;
+  bottom: -110%;
+  right: 55%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.background-circle-6 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: red;
+  bottom: -110%;
+  right: 50%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.background-circle-7 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  bottom: -110%;
+  right: 45%;
+  border-radius: 50%;
+  z-index: -1;
+}
+
 @media only screen and (max-width: 440px) {
   .background-circle-1{
     width: 320px;

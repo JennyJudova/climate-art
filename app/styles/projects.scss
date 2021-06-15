@@ -50,6 +50,19 @@
   background: $h3-color-background;
 }
 
+.address {
+  font-size: 20px;
+  padding: 0 10% 10%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tour-text {
+  padding-bottom: 50px;
+}
+
 .sponsors {
   padding-bottom: 50px;
 }
