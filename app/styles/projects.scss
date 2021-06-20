@@ -52,7 +52,7 @@
 
 .address {
   font-size: 20px;
-  padding: 0 10% 10%;
+  padding: 0 10% 5%;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -95,6 +95,12 @@
 .project-wrapper {
   h2 {
     font-size: 55px;
+  }
+  .a {
+    color: $blue;
+  }
+  .a:hover {
+    color: $red;
   }
 }
 
