@@ -16,9 +16,9 @@ Router.map(function () {
   this.route('past-projects', {});
   this.route('terms-and-conditions', {});
   this.route('donate');
-  this.route('events');
+  this.route('events', { path: '/whats-on' });
   this.route('exhibition');
-  this.route('queer-trail', { path: '/queer-trail' });
+  this.route('queer-trail');
   this.route('queer-trail', { path: '/tour' });
   this.route('404', { path: '/*path' });
 });
