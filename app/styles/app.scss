@@ -49,11 +49,12 @@ $social-media-hover:#FF0101;
 
 @import "home";
 @import "body";
-@import "navbar";
-@import "footer";
 @import "contact";
-@import "circles";
 @import "tandc";
 @import "projects.scss";
-@import "donate-button.scss";
 @import "404.scss";
+@import "../components/navbar/style.scss";
+@import "../components/footer-links/style.scss";
+@import "../components/circles/style.scss";
+@import "../components/donate-button/style.scss";
+
