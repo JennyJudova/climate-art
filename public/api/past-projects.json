@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "vanished-sea.jpeg",
+    "title": "A Vanished Sea (Without a Trace) ",
+    "description": "Residency and Public Programme 2021",
+    "location": "Rye 2021",
+    "partners": [
+      "logo-bp.png",
+      "logo-swt.png",
+      "bsa.png",
+      "AKTTwo.png"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "exhibition.jpeg",
+    "title": "title 2",
+    "description": "what 2",
+    "location": "location 2",
+    "partners": [
+      "logo-bp.png",
+      "logo-swt.png"
+    ]
+  }
+]
