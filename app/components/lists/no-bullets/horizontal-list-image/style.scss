@@ -1,0 +1,15 @@
+.horizontal-list-image {
+  display: flex;
+  justify-content: space-between;
+  li {
+    display: flex;
+    flex-direction: column;
+    img {
+      height: 350px;
+    }
+    p {
+      margin-bottom: 0px;
+      font-size: 15px;
+    }
+  }
+}
