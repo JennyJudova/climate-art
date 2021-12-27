@@ -1,0 +1,17 @@
+.vertical-class-image {
+  display: flex;
+  flex-direction: column;
+  img {
+    height:550px;
+  }
+  li {
+    display: flex;
+    margin: 5% 0;
+  }
+  .image-text {
+    margin-left: 5%;
+    p {
+      margin-top: 0px;
+    }
+  }
+}

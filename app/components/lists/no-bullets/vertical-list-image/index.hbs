@@ -1,0 +1,14 @@
+<div class="vertical-class-image">
+  {{#each @list as |item|}}
+  <li>
+    <img src={{item.image}} alt={{item.name}}>
+    <div class="image-text">
+      <p>{{item.artist}}</p>
+      <p>{{item.name}}</p>
+      <p>{{item.medium}}</p>
+      <p>{{item.year}}</p>
+      <p>{{item.info}}</p>
+    </div>
+  </li>
+  {{/each}}
+</div>
