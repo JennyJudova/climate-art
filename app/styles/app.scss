@@ -52,6 +52,7 @@ $social-media-hover:#FF0101;
 @import "contact";
 @import "tandc";
 @import "projects.scss";
+@import "project.scss";
 @import "404.scss";
 @import "../components/navbar/style.scss";
 @import "../components/footer-links/style.scss";
@@ -59,3 +60,9 @@ $social-media-hover:#FF0101;
 @import "../components/donate-button/style.scss";
 @import "../components/project-card/style.scss";
 @import "../components/project-index/style.scss";
+@import "../components/title-header/style.scss";
+@import "../components/image-large/style.scss";
+@import "../components/lists/no-bullets/style.scss";
+@import "../components/lists/no-bullets/horisontal-list/style.scss";
+@import "../components/lists/no-bullets/horizontal-list-image/style.scss";
+@import "../components/lists/no-bullets/vertical-list-image/style.scss"

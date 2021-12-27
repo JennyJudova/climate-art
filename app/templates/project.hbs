@@ -1,0 +1,20 @@
+<TitleHeader @title={{this.model.name}} @description={{this.model.info}} />
+<DonateButton />
+<ImageLarge @image={{this.model.image}} @altText={{this.model.name}} />
+<div class="wrapper">
+  {{{this.model.project}}}
+  <Lists::NoBullets>
+    <Lists::NoBullets::HorisontalList @list={{this.model.partners}} />
+  </Lists::NoBullets>
+  <h3>Residency advisory board</h3>
+  <Lists::NoBullets>
+    <Lists::NoBullets::HorizontalListImage @list={{this.model.advisors}} />
+  </Lists::NoBullets>
+  <h3>The residents 2021</h3>
+  <Lists::NoBullets>
+    <Lists::NoBullets::HorizontalListImage @list={{this.model.artists}} />
+  </Lists::NoBullets>
+  <Lists::NoBullets>
+    <Lists::NoBullets::VerticalListImage @list={{this.model.art}} />
+  </Lists::NoBullets>
+</div>
