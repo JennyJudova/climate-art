@@ -1,0 +1,75 @@
+{
+  "id": "vanished-sea",
+  "image": "vanished-sea.jpeg",
+  "name": "A Vanished Sea (Without a Trace) ",
+  "info": "Residency and Public Programme 2021",
+  "location": "Rye 2021",
+  "project": "<p>We are delighted to announce this digital workshop generously supported by Creative Carbon Scotland. Created by Matteo Menapace, a game designer formerly in residence at the V&amp;A, it will provide a structured format for creative practitioners, researchers and policymakers to discuss urgent challenges ahead of the UN Climate Change Conference (COP26) due to take place in Glasgow in November 2021.</p><p>Set up as a role-playing game, this workshop will enable participants to step out of their daily roles and imagine solutions to shared problems. After all, play, as once noted by cultural historian Huizinga, is older than culture.</p>  <p>The three-month multidisciplinary residency (April-June 2021) explored the profound ways in which the retracted sea shaped the fortunes and urban ecosystem of the ancient town of Rye in East Sussex.</p>  <p>Generously supported by Bridgepoint Rye and the Kowitz Family Foundation, the residency was open to artists, creative practitioners, and environmental researchers.</p><p>Immersing themselves in Rye’s life, the 2021 residents, Alistair Debling, Joseph Williams, and Mo Langmuir, have produced subtle context-responsive work, reflecting diverse voices from across the local community.</p>",
+  "advisors": [
+    {
+      "name": "Dr Helene Burningham",
+      "info": "Coastal Scientist, Associate Professor in Physical Geography, UC"
+    },
+    {
+      "name": "Gonzalo Herrero",
+      "info": "Delicado Curator, Architect, and Associate Lecturer, Central Saint Martins"
+    },
+    {
+      "name": "Tim Redfern",
+      "info": "Drag Artist and Community Activist"
+    },
+    {
+      "name": "Professor Hanif Kara",
+      "info": "Professor in Structural Engineering, Harvard GSD, Founder AKT II"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Alistair Debling",
+      "info": "interdisciplinary artist",
+      "image": "alistair.jpeg"
+    },
+    {
+      "name": "Joey Williams",
+      "info": "architectural designer",
+      "image": "jo.jpeg"
+    },
+    {
+      "name": "Mo Langmuir",
+      "info": "environmental biologist",
+      "image": "mo.jpeg"
+    }
+  ],
+  "art": [
+    {
+      "artist": "Alistair Debling",
+      "name": "Coastguards",
+      "medium": "Two-channel multimedia installation",
+      "image": "bamboo-jo.png",
+      "year": "2021",
+      "info": "During the residency, Alistair Debling embarked on a project that explored Rye’s rich military history as a fortified town, in tandem with its historical and contemporary energy and environmental defence infrastructure. Conversations with residents, conservationists, activists, and lifeguards offer conflicting definitions of what it means to defend the Sussex coastline and make tentative connections between militarisation, climate, and architecture’s impact on inherited fears of invasion. An excerpt from the artist’s work can be viewed here."
+    },
+    {
+      "artist": "Joey Williams",
+      "name": "The Beacon",
+      "medium": "A temporary pavillion at Rye Harbour Nature Reserve",
+      "image": "bamboo-jo.png",
+      "year": "2021",
+      "info": "Looking at the town’s defence architecture, Joseph Williams proposed a subtle intervention – a metaphorical lighthouse for the fragile vessels and uncertain futures out at sea. His design simultaneously referenced a ubiquitous local plant found across the shingles of Rye Harbour: the yellow horned poppy. Developed in consultation with Sussex Wildlife Trust and AKT II,The Beacon served as a symbol of hope and reunion, offering a temporary outdoor space for community and education events, finally permissible after months of lockdown. An innovative feat of engineering, it was featured in the London Design Festival 2021."
+    },
+    {
+      "artist": "Mo Langmuir",
+      "name": "Animal, Mineral, Vegetable:an Environmental History of Rye",
+      "medium": "Mixed-media installation",
+      "image": "bamboo-jo.png",
+      "year": "2021",
+      "info": "During the residency, Mo Langmuir, a London-based artist with a background in environmental biology, worked closely with Rye's resident groups mapping out sites for biological sampling and creating a temporary, inconclusive collection of the town's environmental history. The resulting work exhibited at Bridgepoint Arts Centre demonstrated the intimate relationship between people and their environment, subverting traditional museology and standard approaches to the classification of non-human nature."
+    }
+  ],
+  "partners": [
+    "logo-bp.png",
+    "logo-swt.png",
+    "bsa.png",
+    "AKTTwo.png"
+  ]
+}

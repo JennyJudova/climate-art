@@ -1,10 +1,12 @@
 [
   {
-    "id": 1,
+    "id": "vanished-sea",
     "image": "vanished-sea.jpeg",
-    "title": "A Vanished Sea (Without a Trace) ",
-    "description": "Residency and Public Programme 2021",
+    "name": "A Vanished Sea (Without a Trace) ",
+    "info": "Residency and Public Programme 2021",
+    "project": "<p>We are delighted to announce this digital workshop generously supported by Creative Carbon Scotland. Created by Matteo Menapace, a game designer formerly in residence at the V&amp;A, it will provide a structured format for creative practitioners, researchers and policymakers to discuss urgent challenges ahead of the UN Climate Change Conference (COP26) due to take place in Glasgow in November 2021.</p><p>Set up as a role-playing game, this workshop will enable participants to step out of their daily roles and imagine solutions to shared problems. After all, play, as once noted by cultural historian Huizinga, is older than culture.</p>  <p>The three-month multidisciplinary residency (April-June 2021) explored the profound ways in which the retracted sea shaped the fortunes and urban ecosystem of the ancient town of Rye in East Sussex.</p>  <p>Generously supported by Bridgepoint Rye and the Kowitz Family Foundation, the residency was open to artists, creative practitioners, and environmental researchers.</p>   <p>Immersing themselves in Rye’s life, the 2021 residents, Alistair Debling, Joseph Williams, and Mo Langmuir, have produced subtle context-responsive work, reflecting diverse voices from across the local community.</p><h3>Residency Advisory Board: </h3><ul><li>Dr Helene Burningham Coastal Scientist, Associate Professor in Physical Geography, UC</li><li>Gonzalo Herrero Delicado Curator, Architect, and Associate Lecturer, Central Saint Martins</li><li>Tim Redfern Drag Artist and Community Activist</li><li>Professor Hanif Kara Professor in Structural Engineering, Harvard GSD, Founder AKT II</li></ul>",
     "location": "Rye 2021",
+    "main-image": "ca-exhibition-view.jpeg",
     "partners": [
       "logo-bp.png",
       "logo-swt.png",
@@ -13,14 +15,15 @@
     ]
   },
   {
-    "id": 2,
-    "image": "exhibition.jpeg",
-    "title": "title 2",
-    "description": "what 2",
-    "location": "location 2",
+    "id": "we-coping",
+    "image": "matteo-menapace.png",
+    "name": "Are We COPing?",
+    "info": "Transforming Artistic Engagement",
+    "project": "",
+    "location": "Digital workshop Sept 2020",
+    "main-image": "ca-exhibition-view-copy.jpeg",
     "partners": [
-      "logo-bp.png",
-      "logo-swt.png"
+      "CCS-colour.png"
     ]
   }
 ]
