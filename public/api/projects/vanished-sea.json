@@ -31,17 +31,17 @@
   "artists": [
     {
       "name": "Alistair Debling",
-      "info": "interdisciplinary artist",
+      "info": "Interdisciplinary artist",
       "image": "alistair.jpeg"
     },
     {
       "name": "Joey Williams",
-      "info": "architectural designer",
+      "info": "Architectural designer",
       "image": "jo.jpeg"
     },
     {
       "name": "Mo Langmuir",
-      "info": "environmental biologist",
+      "info": "Environmental biologist",
       "image": "mo.jpeg"
     }
   ],
@@ -74,7 +74,7 @@
   "partners": [
     "logo-bp.png",
     "logo-swt.png",
-    "bsa.png",
-    "AKTTwo.png"
+    "logo-bsa.png",
+    "logo-AKTTwo.png"
   ]
 }
