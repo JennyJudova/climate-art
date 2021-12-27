@@ -6,15 +6,21 @@
   <Lists::NoBullets>
     <Lists::NoBullets::HorisontalList @list={{this.model.partners}} />
   </Lists::NoBullets>
+  {{#if this.model.advisors}}
   <h3>Residency advisory board</h3>
   <Lists::NoBullets>
     <Lists::NoBullets::HorizontalListImage @list={{this.model.advisors}} />
   </Lists::NoBullets>
+  {{/if}}
+  {{#if this.model.artists}}
   <h3>The residents 2021</h3>
   <Lists::NoBullets>
     <Lists::NoBullets::HorizontalListImage @list={{this.model.artists}} />
   </Lists::NoBullets>
+  {{/if}}
+  {{#if this.model.art}}
   <Lists::NoBullets>
     <Lists::NoBullets::VerticalListImage @list={{this.model.art}} />
   </Lists::NoBullets>
+  {{/if}}
 </div>
