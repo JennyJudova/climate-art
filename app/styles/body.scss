@@ -10,8 +10,7 @@ html {
   pointer-events: none;
 }
 
-body
-{
+body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -89,7 +88,7 @@ body
     padding: 10px;
     border: 1px solid $blue;
     font-size: 20px;
-    color: white;
+    color: $white;
     margin-left: 42%;
     font-family: $font;
     animation-duration: 10s;
@@ -106,18 +105,9 @@ body
       360deg
       );}
   }
-
-  // .button:hover {
-  //   color: $font-color;
-  //   background: $yellow;
-  // }
 }
 
 @media only screen and (max-width: 1180px) {
-  // nav {
-  //   background-color: green;
-  //   flex-wrap: wrap;
-  // }
   .footer-links {
     display: none;
   }

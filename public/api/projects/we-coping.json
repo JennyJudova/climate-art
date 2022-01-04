@@ -6,7 +6,13 @@
   "info": "Transforming Artistic Engagement",
   "project": "<p>We are delighted to announce this digital workshop generously supported by Creative Carbon Scotland. Created by Matteo Menapace, a game designer formerly in residence at the V&amp;A, it will provide a structured format for creative practitioners, researchers and policymakers to discuss urgent challenges ahead of the UN Climate Change Conference (COP26) due to take place in Glasgow in November 2021.</p><p>Set up as a role-playing game, this workshop will enable participants to step out of their daily roles and imagine solutions to shared problems. After all, play, as once noted by cultural historian Huizinga, is older than culture.</p>",
   "location": "Digital workshop Sept 2020",
-  "partners": [
-    "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-CCS-colour_ajgm1l.png"
-  ]
+  "partners": {
+    "partners": [
+      {
+        "link": "https://www.creativecarbonscotland.com/event/green-tease-are-we-coping/",
+        "alt": "Creative Carbon Scotland",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-CCS-colour_ajgm1l.png"
+      }
+    ]
+  }
 }

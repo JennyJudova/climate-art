@@ -6,77 +6,104 @@
   "info": "Residency and Public Programme 2021",
   "location": "Rye 2021",
   "project": "<p>The three-month multidisciplinary residency (April-June 2021) explored the profound ways in which the retracted sea shaped the fortunes and urban ecosystem of the ancient town of Rye in East Sussex.</p>  <p>Generously supported by Bridgepoint Rye and the Kowitz Family Foundation, the residency was open to artists, creative practitioners, and environmental researchers.</p><p>Immersing themselves in Rye’s life, the 2021 residents, Alistair Debling, Joseph Williams, and Mo Langmuir, have produced subtle context-responsive work, reflecting diverse voices from across the local community.</p>",
-  "advisors": [
-    {
-      "name": "Dr Helene Burningham",
-      "info": "Coastal Scientist, Associate Professor in Physical Geography, UC",
-      "link": ""
-    },
-    {
-      "name": "Gonzalo Herrero",
-      "info": "Delicado Curator, Architect, and Associate Lecturer, Central Saint Martins",
-      "link": ""
-    },
-    {
-      "name": "Tim Redfern",
-      "info": "Drag Artist and Community Activist",
-      "link": ""
-    },
-    {
-      "name": "Professor Hanif Kara",
-      "info": "Professor in Structural Engineering, Harvard GSD, Founder AKT II",
-      "link": ""
-    }
-  ],
-  "artists": [
-    {
-      "name": "Alistair Debling",
-      "info": "Interdisciplinary artist",
-      "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/alistair_ptjlev.jpg"
-    },
-    {
-      "name": "Joey Williams",
-      "info": "Architectural designer",
-      "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/joey_ej4iok.jpg"
-    },
-    {
-      "name": "Mo Langmuir",
-      "info": "Environmental biologist",
-      "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/mo_nxmklt.jpg"
-    }
-  ],
-  "art": [
-    {
-      "artist": "Alistair Debling",
-      "name": "Coastguards",
-      "medium": "Two-channel multimedia installation",
-      "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/alistair-video_ux10j2.jpg",
-      "year": "2021",
-      "info": "During the residency, Alistair Debling embarked on a project that explored Rye’s rich military history as a fortified town, in tandem with its historical and contemporary energy and environmental defence infrastructure. Conversations with residents, conservationists, activists, and lifeguards offer conflicting definitions of what it means to defend the Sussex coastline and make tentative connections between militarisation, climate, and architecture’s impact on inherited fears of invasion. An excerpt from the artist’s work can be viewed here.",
-      "infoHtml": " <p>During the residency, Alistair Debling embarked on a project that explored Rye’s rich military history as a fortified town, in tandem with its historical and contemporary energy and environmental defence infrastructure. Conversations with residents, conservationists, activists, and lifeguards offer conflicting definitions of what it means to defend the Sussex coastline and make tentative connections between militarisation, climate, and architecture’s impact on inherited fears of invasion. <a href='https://www.youtube.com/watch?v=kKaqpGGGD4Q' target='_blank' rel='noopener noreferrer' class='names'>An excerpt from the artist’s work can be viewed here</a>.</p>"
-    },
-    {
-      "artist": "Joey Williams",
-      "name": "The Beacon",
-      "medium": "A temporary pavillion at Rye Harbour Nature Reserve",
-      "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/joey-bamboo_sapsiz.jpg",
-      "year": "2021",
-      "info": "Looking at the town’s defence architecture, Joseph Williams proposed a subtle intervention – a metaphorical lighthouse for the fragile vessels and uncertain futures out at sea. His design simultaneously referenced a ubiquitous local plant found across the shingles of Rye Harbour: the yellow horned poppy. Developed in consultation with Sussex Wildlife Trust and AKT II,The Beacon served as a symbol of hope and reunion, offering a temporary outdoor space for community and education events, finally permissible after months of lockdown. An innovative feat of engineering, it was featured in the London Design Festival 2021.",
-      "infoHtml": "<p>Looking at the town’s defence architecture, Joseph Williams proposed a subtle intervention – <a href='https://www.getrevue.co/profile/ClimateArt' target='_blank' rel='noopener noreferrer' class='names'>a metaphorical lighthouse for the fragile vessels and uncertain futures out at sea</a>. His design simultaneously referenced a ubiquitous local plant found across the shingles of Rye Harbour: the yellow horned poppy. Developed in consultation with Sussex Wildlife Trust and AKT II,The Beacon served as a symbol of hope and reunion, offering a temporary outdoor space for community and education events, finally permissible after months of lockdown. An innovative feat of engineering, <a href='https://www.akt-uk.com/latest/the-beacon-of-hope-story-within/?utm_campaign=newsfor' target='_blank' rel='noopener noreferrer' class='names'>the Beacon was featured in the London Design Festival 2021</a>."
-    },
-    {
-      "artist": "Mo Langmuir",
-      "name": "Animal, Mineral, Vegetable:an Environmental History of Rye",
-      "medium": "Mixed-media installation",
-      "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/mo-balloon_ulhm8t.jpg",
-      "year": "2021",
-      "info": "During the residency, Mo Langmuir, a London-based artist with a background in environmental biology, worked closely with Rye's resident groups mapping out sites for biological sampling and creating a temporary, inconclusive collection of the town's environmental history. The resulting work exhibited at Bridgepoint Arts Centre demonstrated the intimate relationship between people and their environment, subverting traditional museology and standard approaches to the classification of non-human nature."
-    }
-  ],
-  "partners": [
-    "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bp_dgp3ys.png",
-    "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-swt_zgy4xk.png",
-    "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bsa_fpzvhn.png",
-    "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-AKTTwo_qhhvpf.png"
-  ]
+  "advisors": {
+    "title": "Residency advisory board",
+    "advisors": [
+      {
+        "name": "Professor Helene Burningham",
+        "info": "Coastal Scientist, Associate Professor in Physical Geography, UC",
+        "link": "https://www.geog.ucl.ac.uk/people/academic-staff/helene-burningham"
+      },
+      {
+        "name": "Gonzalo Herrero Delicado",
+        "info": "Curator, Architect, and Associate Lecturer, Central Saint Martins",
+        "link": "https://www.gonzaloherrero.eu"
+      },
+      {
+        "name": "Tim Redfern",
+        "info": "Drag Artist and Community Activist",
+        "link": "https://www.timberlina.co.uk/index.html"
+      },
+      {
+        "name": "Professor Hanif Kara",
+        "info": "Professor in Structural Engineering, Harvard GSD, Founder AKT II",
+        "link": "https://www.gsd.harvard.edu/person/hanif-kara/"
+      }
+    ]
+  },
+  "artists": {
+    "title": "The residents 2021",
+    "artists": [
+      {
+        "name": "Alistair Debling",
+        "info": "Interdisciplinary artist",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/alistair_ptjlev.jpg"
+      },
+      {
+        "name": "Joey Williams",
+        "info": "Architectural designer",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/joey_ej4iok.jpg"
+      },
+      {
+        "name": "Mo Langmuir",
+        "info": "Environmental biologist",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/mo_nxmklt.jpg"
+      }
+    ]
+  },
+  "art": {
+    "title": "",
+    "art": [
+      {
+        "artist": "Alistair Debling",
+        "name": "Coastguards",
+        "medium": "Two-channel multimedia installation",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/alistair-video_ux10j2.jpg",
+        "year": "2021",
+        "info": "During the residency, Alistair Debling embarked on a project that explored Rye’s rich military history as a fortified town, in tandem with its historical and contemporary energy and environmental defence infrastructure. Conversations with residents, conservationists, activists, and lifeguards offer conflicting definitions of what it means to defend the Sussex coastline and make tentative connections between militarisation, climate, and architecture’s impact on inherited fears of invasion. An excerpt from the artist’s work can be viewed here.",
+        "infoHtml": " <p>During the residency, Alistair Debling embarked on a project that explored Rye’s rich military history as a fortified town, in tandem with its historical and contemporary energy and environmental defence infrastructure. Conversations with residents, conservationists, activists, and lifeguards offer conflicting definitions of what it means to defend the Sussex coastline and make tentative connections between militarisation, climate, and architecture’s impact on inherited fears of invasion. <a href='https://www.youtube.com/watch?v=kKaqpGGGD4Q' target='_blank' rel='noopener noreferrer' class='names'>An excerpt from the artist’s work can be viewed here</a>.</p>"
+      },
+      {
+        "artist": "Joey Williams",
+        "name": "The Beacon",
+        "medium": "A temporary pavillion at Rye Harbour Nature Reserve",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/joey-bamboo_sapsiz.jpg",
+        "year": "2021",
+        "info": "Looking at the town’s defence architecture, Joseph Williams proposed a subtle intervention – a metaphorical lighthouse for the fragile vessels and uncertain futures out at sea. His design simultaneously referenced a ubiquitous local plant found across the shingles of Rye Harbour: the yellow horned poppy. Developed in consultation with Sussex Wildlife Trust and AKT II,The Beacon served as a symbol of hope and reunion, offering a temporary outdoor space for community and education events, finally permissible after months of lockdown. An innovative feat of engineering, it was featured in the London Design Festival 2021.",
+        "infoHtml": "<p>Looking at the town’s defence architecture, Joseph Williams proposed a subtle intervention – <a href='https://www.youtube.com/watch?v=cUzqa_gWTH8&feature=emb_title' target='_blank' rel='noopener noreferrer' class='names'>a metaphorical lighthouse for the fragile vessels and uncertain futures out at sea</a>. His design simultaneously referenced a ubiquitous local plant found across the shingles of Rye Harbour: the yellow horned poppy. Developed in consultation with Sussex Wildlife Trust and AKT II,The Beacon served as a symbol of hope and reunion, offering a temporary outdoor space for community and education events, finally permissible after months of lockdown. An innovative feat of engineering, <a href='https://www.akt-uk.com/latest/the-beacon-of-hope-story-within/?utm_campaign=newsfor' target='_blank' rel='noopener noreferrer' class='names'>the Beacon was featured in the London Design Festival 2021</a>."
+      },
+      {
+        "artist": "Mo Langmuir",
+        "name": "Animal, Mineral, Vegetable:an Environmental History of Rye",
+        "medium": "Mixed-media installation",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/vanished%20sea/mo-balloon_ulhm8t.jpg",
+        "year": "2021",
+        "info": "During the residency, Mo Langmuir, a London-based artist with a background in environmental biology, worked closely with Rye's resident groups mapping out sites for biological sampling and creating a temporary, inconclusive collection of the town's environmental history. The resulting work exhibited at Bridgepoint Arts Centre demonstrated the intimate relationship between people and their environment, subverting traditional museology and standard approaches to the classification of non-human nature."
+      }
+    ]
+  },
+  "partners": {
+    "partners": [
+      {
+        "link": "https://bridgepointrye.com/",
+        "alt": "Bridge Point Rye",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bp_dgp3ys.png"
+      },
+      {
+        "link": "https://sussexwildlifetrust.org.uk/",
+        "alt": "Sussex Wild Life Trust",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-swt_zgy4xk.png"
+      },
+      {
+        "link": "https://www.ucl.ac.uk/bartlett/architecture/",
+        "alt": "The Bartlett School of Architecture",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bsa_fpzvhn.png"
+      },
+      {
+        "link": "https://www.akt-uk.com/",
+        "alt": "AKT II",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-AKTTwo_qhhvpf.png"
+      }
+    ]
+  }
 }
