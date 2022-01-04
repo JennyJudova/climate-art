@@ -19,3 +19,15 @@
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .vertical-class-image {
+    li {
+      flex-direction: column;
+    }
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}

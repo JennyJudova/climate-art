@@ -26,7 +26,7 @@
           "link": "https://www.timberlina.co.uk/index.html"
         },
         {
-          "name": "Professor Hanif Kara",
+          "name": "Professor Hanif Kara OBE",
           "info": "Professor in Structural Engineering, Harvard GSD, Founder AKT II",
           "link": "https://www.gsd.harvard.edu/person/hanif-kara/"
         }
@@ -119,9 +119,9 @@
     "partners": {
       "partners": [
         {
-          "link": "https://www.nationaltrust.org.uk/",
-          "alt": "National Trust",
-          "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-CCS-colour_ajgm1l.png"
+          "link": "https://www.creativecarbonscotland.com/",
+          "alt": "Creative Carbon Scotland",
+          "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1641417311/Climate%20Art%20images/logo/CCS-white_nw9azu.png"
         }
       ]
     }
