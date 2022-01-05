@@ -1,0 +1,33 @@
+.vertical-class-image {
+  display: flex;
+  flex-direction: column;
+  img {
+    height:550px;
+  }
+  li {
+    display: flex;
+    margin: 5% 0;
+  }
+  .image-text {
+    margin-left: 5%;
+    color: $black;
+    p {
+      margin-top: 0px;
+    }
+    h3 {
+      margin-top: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .vertical-class-image {
+    li {
+      flex-direction: column;
+    }
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}

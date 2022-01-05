@@ -1,0 +1,30 @@
+  .horizontal-list {
+    display: inline;
+    img {
+      height: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .horizontal-list {
+      img {
+        height: 35px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .horizontal-list {
+      img {
+        height: 25px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .horizontal-list {
+      img {
+        height: 15px;
+      }
+    }
+  }

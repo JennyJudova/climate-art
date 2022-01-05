@@ -20,8 +20,7 @@
   }
 
   .badge:hover {
-    color: $font-color;
-    background: $yellow;
+    background: $red;
   }
 
   .badge-text {
@@ -49,21 +48,24 @@
 
   @media only screen and (max-width: 600px) {
     .badge {
-      position: static;
-      margin-left: 60%;
+      visibility: hidden;
     }
+  //   .badge {
+  //     position: static;
+  //     margin-left: 60%;
+  //   }
 
-    .wrapper {
-      button {
-        margin-left: 40%;
-      }
-    }
-  }
+  //   .wrapper {
+  //     button {
+  //       margin-left: 40%;
+  //     }
+  //   }
+  // }
 
-  @media only screen and (max-width: 450px) {
-    .wrapper {
-      button {
-        margin-left: 30%;
-      }
-    }
+  // @media only screen and (max-width: 450px) {
+  //   .wrapper {
+  //     button {
+  //       margin-left: 30%;
+  //     }
+  //   }
   }

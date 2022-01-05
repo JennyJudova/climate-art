@@ -1,0 +1,28 @@
+.horizontal-list-image {
+  display: flex;
+  justify-content: space-between;
+  li {
+    display: flex;
+    flex-direction: column;
+    img {
+      height: 350px;
+    }
+    p {
+      margin-bottom: 0px;
+      font-size: 15px;
+      color: $black;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .horizontal-list-image {
+    flex-direction: column;
+    li {
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{{#each @list as |item|}}
+<li class="horizontal-list">
+  {{#if item.link}}
+  <a href={{item.link}} target="_blank" rel="noopener noreferrer"><img src={{item.image}} alt={{item.alt}}></a>
+  {{else}}
+  <img src={{item.image}} alt={{item.alt}}>
+  {{/if}}
+</li>
+{{/each}}

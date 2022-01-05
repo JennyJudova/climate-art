@@ -1,0 +1,18 @@
+<div class="vertical-class-image">
+  {{#each @list as |item|}}
+  <li>
+    <img src={{item.image}} alt={{item.name}}>
+    <div class="image-text">
+      <h3>{{item.artist}}</h3>
+      <h4>{{item.name}}</h4>
+      <h4>{{item.medium}}</h4>
+      <h4>{{item.year}}</h4>
+      {{#if item.infoHtml}}
+      {{{item.infoHtml}}}
+      {{else}}
+      <p>{{item.info}}</p>
+      {{/if}}
+    </div>
+  </li>
+  {{/each}}
+</div>
