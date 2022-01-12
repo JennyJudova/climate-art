@@ -12,7 +12,7 @@
       "advisors": [
         {
           "name": "Professor Helene Burningham",
-          "info": "Coastal Scientist, Associate Professor in Physical Geography, UC",
+          "info": "Coastal Scientist, Associate Professor in Physical Geography, UCL",
           "link": "https://www.geog.ucl.ac.uk/people/academic-staff/helene-burningham"
         },
         {
@@ -86,23 +86,23 @@
     "partners": {
       "partners": [
         {
-          "link": "https://www.nationaltrust.org.uk/",
-          "alt": "National Trust",
+          "link": "https://bridgepointrye.com/",
+          "alt": "Bridge Point Rye",
           "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bp_dgp3ys.png"
         },
         {
-          "link": "https://www.nationaltrust.org.uk/",
-          "alt": "National Trust",
+          "link": "https://sussexwildlifetrust.org.uk/",
+          "alt": "Sussex Wild Life Trust",
           "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-swt_zgy4xk.png"
         },
         {
-          "link": "https://www.nationaltrust.org.uk/",
-          "alt": "National Trust",
+          "link": "https://www.ucl.ac.uk/bartlett/architecture/",
+          "alt": "The Bartlett School of Architecture",
           "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bsa_fpzvhn.png"
         },
         {
-          "link": "https://www.nationaltrust.org.uk/",
-          "alt": "National Trust",
+          "link": "https://www.akt-uk.com/",
+          "alt": "AKT II",
           "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-AKTTwo_qhhvpf.png"
         }
       ]
