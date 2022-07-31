@@ -1,8 +1,12 @@
 <div class="horizontal-list-image">
   {{#each @list as |item|}}
   <li>
-    <img src={{item.image}} alt={{item.name}}>
-    <p>{{item.name}}</p>
+    {{#if item.image}}
+      <img src={{item.image}} alt={{item.name}}>
+      <p>{{item.name}}</p>
+    {{else}}
+    <p><span class="red-highlight">{{item.name}}</span></p>
+    {{/if}}
     <p>{{item.info}}</p>
   </li>
   {{/each}}

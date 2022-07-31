@@ -7,32 +7,32 @@
     <Lists::NoBullets::HorisontalList @list={{@model.partners.partners}} />
   </Lists::NoBullets>
   {{#if @model.artists}}
-  {{#if @model.artists.title}}
-  <h3>{{@model.artists.title}}</h3>
-  {{/if}}
-  <Lists::NoBullets>
-    <Lists::NoBullets::HorizontalListImage @list={{@model.artists.artists}} />
-  </Lists::NoBullets>
+    {{#if @model.artists.title}}
+      <h3>{{@model.artists.title}}</h3>
+    {{/if}}
+    <Lists::NoBullets>
+      <Lists::NoBullets::HorizontalListImage @list={{@model.artists.artists}} />
+    </Lists::NoBullets>
   {{/if}}
   {{#if @model.art}}
-  {{#if @model.art.title}}
-  <h3>{{@model.art.title}}</h3>
-  {{/if}}
-  <Lists::NoBullets>
-    <Lists::NoBullets::VerticalListImage @list={{@model.art.art}} />
-  </Lists::NoBullets>
+    {{#if @model.art.title}}
+      <h3>{{@model.art.title}}</h3>
+    {{/if}}
+    <Lists::NoBullets>
+      <Lists::NoBullets::VerticalListImage @list={{@model.art.art}} />
+    </Lists::NoBullets>
   {{/if}}
   {{#if @model.advisors}}
-  {{#if @model.advisors.title}}
-  <h3>{{@model.advisors.title}}</h3>
-  {{/if}}
-  <Lists::NoBullets>
-    {{#each @model.advisors.advisors as |advisor|}}
-    <li>
-      <span><a href={{advisor.link}} target="_blank" rel="noopener noreferrer" class="names">{{advisor.name}}</a> -
-        {{advisor.info}}</span>
-    </li>
-    {{/each}}
-  </Lists::NoBullets>
+    {{#if @model.advisors.title}}
+      <h3>{{@model.advisors.title}}</h3>
+    {{/if}}
+    <Lists::NoBullets>
+      {{#each @model.advisors.advisors as |advisor|}}
+      <li>
+        <span><a href={{advisor.link}} target="_blank" rel="noopener noreferrer" class="names">{{advisor.name}}</a> -
+          {{advisor.info}}</span>
+      </li>
+      {{/each}}
+    </Lists::NoBullets>
   {{/if}}
 </div>

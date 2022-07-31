@@ -54,6 +54,14 @@
   background: $h3-color-background;
 }
 
+.names:hover {
+  color: $red;
+}
+
+.red-highlight {
+  background: $red;
+}
+
 .address {
   font-size: 20px;
   padding: 0 10% 5%;

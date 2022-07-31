@@ -1,0 +1,25 @@
+{
+  "id": "future-worlds",
+  "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1659788007/Climate%20Art%20images/future-worlds/future-world-2_h2kymt.jpg",
+  "image-2": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1659787730/Climate%20Art%20images/future-worlds/future-world_wovl5z.jpg",
+  "name": "Future Worlds",
+  "info": "Designing for a Changing Environment",
+  "project": "<p>The influential British architect Cedric Price once famously asked: “Technology is the answer, but what was the question?” Today, with extreme weather events becoming the norm, this query seems more relevant than ever. Is technology our downfall or salvation? And can we still conceive of our separateness from the ‘natural world’ while trying to find solutions to urgent environmental problems? Join Professor Hanif Kara, OBE (AKT II/Harvard), Gonzalo Herrero Delicado (Central St Martins), and Barry Wark (the Bartlett) for a discussion on the future of art, design and architecture marking Climate Art’s 2021 commission for the Rye Harbour Nature Reserve.</p><audio controls><source src='https://res.cloudinary.com/dqqou4dzd/video/upload/v1659902206/Climate%20Art%20images/future-worlds/Future_Worlds__Designing_for_a_Changing_Environment_V1_wkxnrc.mp3' type='audio/mp3'><source src='https://res.cloudinary.com/dqqou4dzd/video/upload/v1659902172/Climate%20Art%20images/future-worlds/Future_Worlds__Designing_for_a_Changing_Environment_V1_dyheh4.ogg' type='audio/ogg'><p>Your browser doesn't support HTML5 audio. Here is a <a href='https://res.cloudinary.com/dqqou4dzd/video/upload/v1659902206/Climate%20Art%20images/future-worlds/Future_Worlds__Designing_for_a_Changing_Environment_V1_wkxnrc.mp3'>link to the audio</a> instead.</p></audio><p><b class='names'><a href='../../../public/audio/future_worlds.mp3' download='future_worlds.mp3'>Download the audio</a></b></br><b class='names'><a href='https://drive.google.com/file/d/1Qa_Z8mLX9oxvy1Ccywx21SdBBJ1C3J-x/view' target='_blank'>Read the transcript</a></b></p>",
+  "artists": {
+    "title": "About the speakers",
+    "artists": [
+      {
+        "name": "Professor Hanif Kara, OBE",
+        "info": "Professor Hanif Kara is a practising structural engineer, co-founder of AKT II, and Professor in the Practice of Architectural Technology at the Graduate School of Design, Harvard. He is recognised for linking design, research, education and practice. His interest in innovative material uses and complex analysis methods has allowed him to work on pioneering projects at the forefront of the many challenges facing the built environment."
+      },
+      {
+        "name": "Gonzalo Herrero Delicado",
+        "info":"Gonzalo Herrero Delicado is a curator, architect and educator. He works at the intersection of architecture, design and technology, exploring their connection to ecology and digital culture, and is a Design Fellow at the University of Cambridge and an Associate Lecturer at Central Saint Martins. One of his latest curatorial projects was the exhibition ‘Tomorrow Today’ for the Museum of the Future, Dubai."
+      },
+      {
+        "name": "Barry Wark",
+        "info":"Barry Wark is an architect and designer who combines practice with research and teaching at the Bartlett School of Architecture, UCL. His work explores the manifestation of ‘nature’ in architecture, reflecting on ecological sensibility and the human place within the Anthropocene. Barry is also the co-founder of the academic atelier Biophile, a space for students and educators to contribute to the evolving nature-architecture dialogue."
+      }
+    ]
+  }
+}
