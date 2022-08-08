@@ -24,4 +24,5 @@ Router.map(function () {
   this.route('projects', {});
   this.route('projects', { path: '/residency' });
   this.route('exhibition', {});
+  this.route('audio-archive');
 });
