@@ -1,0 +1,25 @@
+.columns {
+  display: flex;
+}
+
+.add-padding {
+  margin-right: 10%
+}
+
+.color {
+  color: $blue
+}
+
+.current-project-wrapper {
+  .text{
+    p:hover {
+      background-color: $yellow;
+    }
+    li:hover {
+      background-color: $yellow;
+    }
+    .names {
+      color: $red
+    }
+  }
+}
