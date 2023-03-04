@@ -12,6 +12,7 @@
 
 .current-project-wrapper {
   .text{
+
     p:hover {
       background-color: $yellow;
     }
@@ -21,6 +22,17 @@
     .names {
       color: $red
     }
+
+    .names:hover {
+      color: $blue
+    }
+  }
+  details {
+    margin-bottom: 10px;
+  }
+  summary {
+    padding: 10px;
+    font-size: 28px;
   }
 }
 
