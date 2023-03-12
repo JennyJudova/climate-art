@@ -31,6 +31,17 @@
     text-decoration: none;
   }
 
+  .red-blue-badge {
+    .badge {
+      background: $red;
+    }
+
+    .badge:hover {
+      background: $yellow;
+      color: $red;
+    }
+  }
+
 .donation-wrapper {
   .background-circle-2 {
     bottom: 15%;

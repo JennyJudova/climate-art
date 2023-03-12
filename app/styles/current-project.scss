@@ -26,6 +26,21 @@
     .names:hover {
       color: $blue
     }
+
+    .names-no-hover{
+      .names:hover {
+        color: $red
+      }
+      padding-top: 20px;
+    }
+
+    .link {
+      color: $blue
+    }
+
+    .link:hover {
+      color: $red
+    }
   }
   details {
     margin-bottom: 10px;
