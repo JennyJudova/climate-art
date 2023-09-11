@@ -56,15 +56,15 @@ $social-media-hover:#FF0101;
 @import "tandc";
 @import "projects.scss";
 @import "404.scss";
-@import "../components/navbar/style.scss";
-@import "../components/footer-links/style.scss";
-@import "../components/circles/style.scss";
-@import "../components/donate-button/style.scss";
-@import "../components/project-card/style.scss";
-@import "../components/project-index/style.scss";
-@import "../components/title-header/style.scss";
-@import "../components/image-large/style.scss";
-@import "../components/lists/no-bullets/style.scss";
-@import "../components/lists/no-bullets/horisontal-list/style.scss";
-@import "../components/lists/no-bullets/horizontal-list-image/style.scss";
-@import "../components/lists/no-bullets/vertical-list-image/style.scss"
+// @import "/app/components//navbar/style.scss";
+@import "footer-links.scss";
+@import "circles.scss";
+@import "donate-button.scss";
+@import "project-card.scss";
+@import "project-index.scss";
+@import "title-header.scss";
+@import "image-large.scss";
+@import "no-bullets.scss";
+@import "horisontal-list.scss";
+@import "horizontal-list-image.scss";
+@import "vertical-list-image.scss"
