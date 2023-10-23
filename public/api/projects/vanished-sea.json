@@ -85,6 +85,11 @@
   "partners": {
     "partners": [
       {
+        "link": "",
+        "alt": "Kowitz Family Foundation",
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1698086562/Climate%20Art%20images/logo/kff_hgcn6y.png"
+      },
+      {
         "link": "https://bridgepointrye.com/",
         "alt": "Bridge Point Rye",
         "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-bp_dgp3ys.png"
