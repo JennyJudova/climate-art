@@ -5,9 +5,17 @@
       <img src={{item.image}} alt={{item.name}}>
       <p>{{item.name}}</p>
     {{else}}
-    <p><span class="red-highlight">{{item.name}}</span></p>
+      {{#if item.link}}
+        <p><a href={{item.link}} target='_blank' rel='noopener noreferrer' class='link'><span class="red-highlight">{{item.name}}</span></a></p>
+      {{else}}
+        <p><span class="red-highlight">{{item.name}}</span></p>
+      {{/if}}
     {{/if}}
-    <p>{{item.info}}</p>
+    {{#if item.infoHtml}}
+      <p>{{{item.infoHtml}}}</p>
+    {{else}}
+      <p>{{item.info}}</p>
+    {{/if}}
   </li>
   {{/each}}
 </div>
