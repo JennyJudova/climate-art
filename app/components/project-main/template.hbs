@@ -36,4 +36,12 @@
     </Lists::NoBullets>
   {{/if}}
   {{{@model.projectExtra}}}
+  {{#if @model.images}}
+    {{#each @model.images as |image|}}
+      <figure>
+        <ImageLarge @image={{image.image}} @altText={{image.text}} />
+        <figcaption>{{image.text}}</figcaption>
+      </figure>
+    {{/each}}
+  {{/if}}
 </div>
