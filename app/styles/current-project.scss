@@ -10,6 +10,11 @@
   color: $blue
 }
 
+.caption {
+  margin-top: -80px;
+  font-style: italic;
+}
+
 .current-project-wrapper {
   .ldf-icon{
     width: 100px;
@@ -71,5 +76,11 @@
 @media only screen and (max-width: 700px) {
   .columns {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .caption {
+    margin-top: 0px;
   }
 }

@@ -1,0 +1,53 @@
+{
+    "id": "open-air",
+    "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1725919703/climate-art-aopen-air_vcxhrs.jpg",
+    "image-2": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1725919703/climate-art-aopen-air_vcxhrs.jpg",
+    "name": "OPEN AIR!",
+    "info": "Exhibition organised by Climate Art.",
+    "project": "<p>Somers Town and the surrounding area have been subject to extensive development from the building of the Euston Road in the 1750s up to today. According to residents, construction has been almost constant since the 1960s and many of the current large-scale development projects are set to continue until 2033.</p><p>The environmental impact over the decades has been severe, with increased air pollution and the loss of much-loved trees that stood for generations. While in recent years there has been some improvement in air quality, the data from local monitoring and sensor networks suggest that the levels of Fine Particles (PM2.5), Ozone (O3), and toxic Nitrogen dioxide (NO2) remain high, with the latter consistently exceeding the World Health Organization (WHO) limit for the protection of human health.</p><p>Climate Art is currently working on a temporary artistic intervention on Charrington Street that would draw attention and offer creative solutions to this daily environmental concern, one that affects everyone but, in particular, vulnerable groups such as older people and young children.</p><p>The proposed artwork was selected after the OPEN AIR! Exhibition, which took place at the P21 Gallery in Somers Town and showcased the ideas for the future piece envisaged by IVAAIU City and A-Axis Architects (Jihyun Lee, Sung-Su Park, Hancheol So, Hiroto Takeuchi, and Donguk Agos Lee), David Rickard, and Ling Tan and Usman Haque. The selection panel included two Somers Town residents committed to the positive transformation of their Neighbourhood. Finally, David Rickard’s proposal was selected and he is currently working with the wider community on the co-design of the work.</p>",
+    "projectExtra": "<h3>About Somers Town</h3><p>Somers Town is an inner-city district in North London that lies between two mainline railway termini, Euston and St Pancras International, and is bound by the Euston Road to the south and Oakley Square and Crowndale Road to the north. While mainly residential, Somers Town is home to some of Britain’s leading research and academic centres, including the British Library and the Francis Crick Institute of biomedical research. It is also moments away from both the UCL campus in Bloomsbury and Kings Cross, home to Central Saint Martins and one of London’s most vibrant tech hubs. </p><p>Somers Town boasts some great examples of interwar-period social housing. The principal design feature of many blocks of flats in the area is the wide-ranging use of site-specific decorative art on façades and in courtyards created by a distinguished British sculptor Gilbert Bayes.</p><p>Today, Somers Town has a truly diverse and tight-knit community with several active neighbourhood groups and associations hosting regular events and an annual festival. However, with high numbers of young and vulnerable residents and several ongoing large-scale construction projects, Somers Town faces pressing social and environmental challenges, ranging from child poverty to the loss of open green spaces. In October 2021, Somers Town was awarded a Future Neighbourhoods status by the GLA to help its residents address some of these issues.</p>",
+    "artists": {
+      "title": "Shortlisted Artists",
+      "artists": [
+        {
+          "name": "David Rickard",
+          "infoHtml": "<p>Originally from New Zealand, <a href='https://www.david-rickard.net/' target='_blank' rel='noopener noreferrer' class='link'>David Rickard</a> lives and works in London. With degrees in both architecture and fine art, he often explores the relationship between public art and the built environment through such diverse media as durational performance and sculpture. </p><p>David has a long-standing interest in the air that surrounds and sustains us, resulting in works such as a 24-hour performance ‘Exhaust’, a site-responsive installation ‘A roomful of Air’ and a large collaborative project ’ International Airspace’.</p><p>David’s work has been exhibited at, among others, Fortuny Museum, Venice; Castlefield Gallery, Manchester; Museum Kranenburgh, Netherlands; The Jerwood Space, London; NEST, The Hague; Weizmann Institute, Tel Aviv; Royal Society, London; Wellcome Collection, London.</p>"
+        },
+        {
+          "name": "Usman Haque and Ling Tan",
+          "infoHtml": "<p>Trained as an architect, <a href='https://haque.co.uk/'' target='_blank' rel='noopener noreferrer' class='link'>Usman Haque</a> is the founder and creative director of Umbrellium, a London-based design and build studio dedicated to transforming urban environments. His work embraces many disciplines, including design, architecture, the Internet of Things (IoT), urban community infrastructure, and large-scale public art/performance.</p><p>He was appointed a Design Council Ambassador in 2021 and to the Mayor of London's Data for London Advisory Board in 2022. Usman's work has been shown at, among others, ICA, London; the Tokyo Metropolitan Museum of Photography; Barbican, London; Seoul Museum of Art; The Architectural League of New York; Science Gallery, Dublin; Netherlands Media Art Institute, Amsterdam.</p><p><a href='https://lingql.com/' target='_blank' rel='noopener noreferrer' class='link'>Ling Tan</a> is a UK-based Singaporean designer and artist working across social engagement, technology, citizen participation, and politics. Originally trained as an architect, her work explores citizens’ interaction with the built environment and our collective agency and responsibility in tackling complex issues surrounding our cities, such as public safety, air quality, climate change and gender safety.</p><p>Ling is currently an Associate Artistic Director at Kakilang. Her work has been exhibited internationally, including at Centre Pompidou, Paris; Victoria and Albert Museum, London; Barbican, London; Somerset House, London; HeK, Basel; Fukuoka City Science Museum; Wits Art Museum, Johannesburg.</p>"
+        },
+        {
+          "name": "Jihyun Lee, Donguk Agos Lee, IVAAIU City/A-Axis Architects",
+          "infoHtml": "<p>Jihyun Lee is a head architect at A-Axis Architects in Seoul and has recently opened an office in London. She studied at the Architectural Association School of Architecture in London and worked at Squire and Partners. Her latest projects include the Namyang Fire Station and the fit-out of 42 Seoul Innovation Academy. Jihyun has recently set up the Untitled Void Gallery in Seoul.</p><p>With a background in city planning (Massachusetts Institute of Technology), Donguk Agos Lee is the director and new media artist with the collective <a href='http://ivaaiu.com/'' target='_blank' rel='noopener noreferrer' class='link'>IVAAIU City</a> and an Architect at A-Axis Architects. His diverse practice spans audio-visual performance, new media installation, and future city design.</p>"
+        }
+      ]
+    },
+    "partners": {
+      "partners": [
+        {
+          "link": "https://www.akt-uk.com/",
+          "alt": "AKT II",
+          "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-AKTTwo_qhhvpf.png"
+        },
+        {
+          "alt": "London Design Festival",
+          "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1726517177/ldf23_pigvto.png"
+        }
+      ]
+    },
+    "images": [
+      {
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1725919793/climate-art-open-air-pv_jsmvpt.jpg",
+        "text": "OPEN AIR! Exhibition organised by Climate Art. Photographs by Adrian Raudaschl"
+      },
+      {
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1726597390/open-air-2_mlniju.jpg",
+        "text": "OPEN AIR! Exhibition organised by Climate Art. Photographs by Adrian Raudaschl"
+      },
+      {
+        "image": "https://res.cloudinary.com/dqqou4dzd/image/upload/v1726597391/open-air-3_ydltk8.jpg",
+        "text": "OPEN AIR! Exhibition organised by Climate Art. Photographs by Adrian Raudaschl"
+      }
+    ]
+  }
