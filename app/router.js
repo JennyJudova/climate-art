@@ -26,4 +26,5 @@ Router.map(function () {
   this.route('exhibition', {});
   this.route('audio-archive');
   this.route('current-projects');
+  this.route('exhibition');
 });
