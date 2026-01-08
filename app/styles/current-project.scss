@@ -2,6 +2,19 @@
   display: flex;
 }
 
+.hoveryellowred:hover {
+  background-color: $yellow;
+}
+.hoveryellowred:active {
+  color: $red;
+}
+
+.text-no-hover {
+  p:hover {
+    background: none !important;
+  }
+}
+
 .add-padding {
   margin-right: 10%
 }
