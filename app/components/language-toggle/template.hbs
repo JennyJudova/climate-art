@@ -1,0 +1,16 @@
+<div class="language-toggle">
+  <button
+    type="button"
+    class="{{if (eq @currentLanguage 'en') 'active'}}"
+    {{on "click" (fn @onToggle)}}
+    aria-label="Switch to English">
+    EN
+  </button>
+  <button
+    type="button"
+    class="{{if (eq @currentLanguage 'bn') 'active'}}"
+    {{on "click" (fn @onToggle)}}
+    aria-label="Switch to Bengali">
+    BN
+  </button>
+</div>
