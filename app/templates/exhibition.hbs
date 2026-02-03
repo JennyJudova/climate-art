@@ -1,70 +1,44 @@
-<TitleHeader @title="David Rickard: Halfway to the Sun" @description="Exhibition"/>
+<div class="exhibition-page">
+<TitleHeader @title={{this.currentTitle}} @description={{this.currentDescription}}/>
   <DonateButton />
+  <LanguageToggle @currentLanguage={{this.currentLanguage}} @onToggle={{this.toggleLanguage}} />
   <ImageLarge @image='https://res.cloudinary.com/dqqou4dzd/image/upload/v1767893720/Climate%20Art%20images/Halfway-to-the-Sun_invite-film-looped_evybpf.gif' @altText='gif of a car wheel spinning' />
 <div class="wrapper" aria-label="exhibition page">
   <div class="current-project-wrapper">
   <div class="text text-no-hover">
-    <h3>DATES</h3>
-    <p>Friday 6 - Friday 20, February 2026</p>
-    <h3>HOURS</h3>
-    <p>Thursday - Saturday</p>
-    <p>12:00pm -5:00pm</p>
-    <h3>GALLERY</h3>
-    <p>Somers Gallery</p>
-    <p>96 Chalton St, London NW1 1HJ</p>
+    <h3>{{this.currentDates}}</h3>
+    <p>{{this.currentDatesText}}</p>
+    <h3>{{this.currentHours}}</h3>
+    <p>{{this.currentHoursDay}}</p>
+    <p>{{this.currentHoursTime}}</p>
+    <h3>{{this.currentGallery}}</h3>
+    <p>{{this.currentGalleryName}}</p>
+    <p>{{this.currentGalleryAddress}}</p>
   </div>
   <p>
-    Distance seems to shrink to insignificance in our age of increased connectivity, ever-faster
-travel, and digital instantaneity. Halfway to the Sun is a metaphor and an attempt to
-comprehend the scale of movement — both digital and physical — that shapes our lives,
-including the endless stream of car journeys taken daily across the UK. This proposed
-installation by artist David Rickard, salvaging over 300 aluminium car‑wheel rims, reflects on
-the invisible history of travel — the millions of miles cars traverse over their lifetimes.
+    {{this.currentParagraph1}}
   </p>
   <p>
-    The installation also looks at the flip side of travel. All vehicles contribute to air pollution,
-including electric cars, which still emit significant particulate matter (PM2.5) from tyre wear and
-road dust resuspension. When we breathe in, tiny, invisible particles of pollution penetrate
-deep into our lungs and bloodstream, affecting every organ in the body. Toxic air is a known
-contributor to cancer, heart disease, stroke, and asthma. According to the Royal College of
-Physicians, air pollution contributes to approximately 30,000 deaths per year and costs society,
-businesses and the NHS more than £27 billion annually.
+    {{this.currentParagraph2}}
   </p>
   <p>
-    This context is especially relevant to Somers Town. The neighbourhood is surrounded by major
-roads, including Euston Road, still one of London’s most polluted. Despite a significant
-reduction in both nitrogen dioxide and PM2.5 levels over the past decade, the mean annual
-concentration of both pollutants in the area close to Euston Road remains considerably above
-the WHO’s recommended limits of 10 µg/m³ and 5 µg/m³, respectively.
+    {{this.currentParagraph3}}
   </p>
   <p>
-    Moreover, across the last 30 years, Somers Town and the surrounding areas have undergone
-extensive, continuous development. As a result of ongoing large-scale construction projects,
-residents have experienced not only air-quality degradation, but also the loss of open green
-spaces.
+    {{this.currentParagraph4}}
   </p>
   <p>
-    This artistic project acknowledges the complex nature of air pollution and its multiple sources –
-including those connected with our daily activities at home, such as cooking, wood burning or
-lighting of candles. It offers no facile answers. Instead, it encourages us to think of radical new
-ways in which our urban landscape could evolve in response to environmental change. It calls
-for cities where space is truly public, and where collective wellbeing takes precedence over
-personal habits that deteriorate air quality and destroy health for all.
+    {{this.currentParagraph5}}
   </p>
   <p>
-    The installation on view in the gallery illustrates the evolution of our thinking around air
-pollution. This includes featuring plants that at different points were thought of as solutions to
-the air quality problem, including those recommended by NASA, following its 1989 clean air
-study. The title itself – Halfway to the Sun – evokes the connection to space travel.
+    {{this.currentParagraph6}}
   </p>
-  <p>At the end of the exhibition, all plants will be distributed among residents of Somers Town.</p>
+  <p>{{this.currentParagraph7}}</p>
   <p>
-    <em>Special thanks to the many people, including residents of Somers Town, who helped shape this
-work: Ema Howling, Ed Tibuzzi, Halima Khan, Halima Tuli, Hanif Kara OBE, James New, Michael
-Pinsky, Tom Parkes, Slaney Devlin, and participants of the Think and Do workshop.</em>
+    <em>{{this.currentSpecialThanks}}</em>
   </p>
-  <h3><LinkTo class="hoveryellowred"  @route="current-projects" aria-label="current-project link">MORE INFO</LinkTo></h3>
-  <p>With thanks to</p>
+  <h3><LinkTo class="hoveryellowred"  @route="current-projects" aria-label="current-project link">{{this.currentMoreInfoText}}</LinkTo></h3>
+  <p>{{this.currentWithThanksTo}}</p>
     <ul class="no-bullets">
       <li class="horizontal-list">
         <a href="https://www.akt-uk.com/" target="_blank" rel="noopener noreferrer"><img style="height: 50px; width: 50px; margin-right: 10px;" src="https://res.cloudinary.com/dqqou4dzd/image/upload/f_auto/Climate%20Art%20images/logo/logo-AKTTwo_qhhvpf.png" alt="AKT II"></a>
@@ -83,4 +57,5 @@ Pinsky, Tom Parkes, Slaney Devlin, and participants of the Think and Do workshop
       </li>
     </ul>
   </div>
+</div>
 </div>

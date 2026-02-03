@@ -1,0 +1,8 @@
+// Exhibition page specific styles
+// Override badge position to move it to top left on exhibition page only
+.exhibition-page {
+  .badge {
+    right: auto;
+    left: 20px;
+  }
+}
