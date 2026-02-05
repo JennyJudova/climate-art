@@ -42,7 +42,7 @@ const TRANSLATIONS = {
 
   bn: {
     // Title and description
-    title: "ডেভিড রিকার্ড: সূর্যের অর্ধেক পথ]",
+    title: "ডেভিড রিকার্ড: সূর্যের অর্ধেক পথ",
     description: "জলবায়ু শিল্প",
 
     // Event details
